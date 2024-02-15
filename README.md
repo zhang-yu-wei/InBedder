@@ -1,4 +1,4 @@
-# Answer is All You Need: Instruction-following Text Embedding via Answering the Question
+# InBedder: Instruction-following Text Embedder
 
 This repository contains the code and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question]().
 
@@ -58,4 +58,3 @@ If you find our work helpful, please cite us:
 ```bibtex
 
 ```
-
