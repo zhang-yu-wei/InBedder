@@ -1,0 +1,10 @@
+{
+  "dataset_revision": "6125ec4e24fa026cec8a478383ee943acfbd5449",
+  "mteb_dataset_name": "TwentyNewsgroupsClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "evaluation_time": 2.4,
+    "v_measure": 0.3491484800251949,
+    "v_measure_std": 0.0152163462849952
+  }
+}

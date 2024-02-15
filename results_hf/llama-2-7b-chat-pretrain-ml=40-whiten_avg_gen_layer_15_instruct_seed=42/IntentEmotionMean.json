@@ -1,0 +1,11 @@
+{
+    "dataset_revision": null,
+    "mteb_dataset_name": "IntentEmotion",
+    "mteb_version": "1.1.2.dev0",
+    "test": {
+        "Emotion_success_rate": 0.5211038961038961,
+        "Intent_success_rate": 0.43652597402597404,
+        "evaluation_time": 104.87,
+        "harmonic_mean": 0.47507998180995104
+    }
+}

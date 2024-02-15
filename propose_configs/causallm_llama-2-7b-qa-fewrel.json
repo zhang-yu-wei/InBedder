@@ -1,0 +1,23 @@
+{
+    "model_type": "causal",
+    "model_path": "alpaca_train/checkpoints/qa_Llama-2-7b-hf",
+    "model_id": "Llama-2-7b-hf-qa-ml=20",
+    "max_input_length": 512,
+    "dtype": "bfloat16",
+    "seed": 42,
+    "use_flash_attention_2": true,
+    "generation_configs": {
+        "temperature": 0.6,
+        "top_p": 0.9,
+        "max_new_tokens": 20,
+        "do_sample": true
+    },
+    "batch_size": 50,
+    "disable_instruction": false,
+    "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:",
+    "data_path": "InstructEmbedBench/datasets/few_rel_nat/converted_data.json",
+    "instruction": "Here is a sentence. Please tell me the relation type between two specified entities appended after the sentence.",
+    "instruct_id": "relation-type",
+    "output_value": "last_ppt_layer_32",
+    "n_clusters": 64
+}

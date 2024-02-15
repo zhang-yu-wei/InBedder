@@ -1,0 +1,612 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "FewRelClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "field of work": 29,
+          "instrument": 24,
+          "movement": 4,
+          "nominated for": 1,
+          "occupation": 51,
+          "said to be the same as": 1,
+          "work location": 2
+        },
+        {
+          "after a work by": 1,
+          "applies to jurisdiction": 7,
+          "characters": 2,
+          "contains administrative territorial entity": 1,
+          "country": 1,
+          "developer": 3,
+          "distributor": 2,
+          "field of work": 8,
+          "followed by": 27,
+          "genre": 1,
+          "has part": 8,
+          "head of government": 1,
+          "headquarters location": 1,
+          "heritage designation": 1,
+          "instance of": 20,
+          "league": 1,
+          "located in the administrative territorial entity": 1,
+          "located on terrain feature": 14,
+          "location": 6,
+          "location of formation": 1,
+          "manufacturer": 2,
+          "member of political party": 1,
+          "mountain range": 8,
+          "mouth of the watercourse": 8,
+          "movement": 2,
+          "nominated for": 1,
+          "notable work": 4,
+          "occupant": 13,
+          "occupation": 1,
+          "operating system": 4,
+          "operator": 5,
+          "original network": 5,
+          "owned by": 7,
+          "participant": 12,
+          "participant of": 5,
+          "participating team": 5,
+          "platform": 1,
+          "said to be the same as": 15,
+          "screenwriter": 1,
+          "sports season of league or competition": 25,
+          "subsidiary": 22,
+          "successful candidate": 12,
+          "tributary": 6,
+          "winner": 6
+        },
+        {
+          "after a work by": 1,
+          "field of work": 28,
+          "said to be the same as": 1
+        },
+        {
+          "field of work": 1,
+          "followed by": 2,
+          "located in the administrative territorial entity": 1,
+          "manufacturer": 2,
+          "military branch": 1,
+          "movement": 1,
+          "occupant": 17,
+          "operator": 46,
+          "owned by": 14,
+          "participant": 4,
+          "participating team": 3,
+          "subsidiary": 3,
+          "winner": 1
+        },
+        {
+          "country of origin": 1,
+          "field of work": 1,
+          "movement": 1,
+          "nominated for": 66,
+          "participant": 3,
+          "participant of": 11,
+          "sports season of league or competition": 16,
+          "winner": 31
+        },
+        {
+          "applies to jurisdiction": 2,
+          "field of work": 1,
+          "genre": 1,
+          "has part": 4,
+          "heritage designation": 4,
+          "instance of": 36,
+          "location of formation": 1,
+          "manufacturer": 1,
+          "mountain range": 1,
+          "owned by": 1,
+          "said to be the same as": 3,
+          "sports season of league or competition": 1,
+          "subsidiary": 2,
+          "taxon rank": 1,
+          "tributary": 1
+        },
+        {
+          "field of work": 1,
+          "genre": 64,
+          "instance of": 5,
+          "movement": 2,
+          "said to be the same as": 1
+        },
+        {
+          "applies to jurisdiction": 1,
+          "country of citizenship": 4,
+          "field of work": 1,
+          "instance of": 2,
+          "occupant": 1,
+          "participant": 1,
+          "religion": 53,
+          "said to be the same as": 2
+        },
+        {
+          "field of work": 2,
+          "licensed to broadcast to": 1,
+          "movement": 48,
+          "religion": 1,
+          "said to be the same as": 1
+        },
+        {
+          "applies to jurisdiction": 1,
+          "contains administrative territorial entity": 1,
+          "country": 1,
+          "country of citizenship": 15,
+          "country of origin": 4,
+          "field of work": 2,
+          "language of work or name": 21,
+          "movement": 1,
+          "operator": 1,
+          "religion": 2
+        },
+        {
+          "characters": 3,
+          "field of work": 3,
+          "genre": 1,
+          "notable work": 60,
+          "performer": 1,
+          "religion": 1,
+          "said to be the same as": 1
+        },
+        {
+          "field of work": 1,
+          "headquarters location": 28,
+          "licensed to broadcast to": 13,
+          "location": 2,
+          "location of formation": 7,
+          "notable work": 1,
+          "occupant": 2,
+          "residence": 3,
+          "subsidiary": 1,
+          "work location": 2
+        },
+        {
+          "architect": 61,
+          "field of work": 1,
+          "manufacturer": 1,
+          "movement": 2,
+          "notable work": 4
+        },
+        {
+          "applies to jurisdiction": 14,
+          "country": 1,
+          "field of work": 1,
+          "has part": 1,
+          "military branch": 1,
+          "position held": 59,
+          "said to be the same as": 1,
+          "successful candidate": 1
+        },
+        {
+          "distributor": 1,
+          "headquarters location": 2,
+          "instance of": 1,
+          "owned by": 1,
+          "performer": 1,
+          "record label": 75
+        },
+        {
+          "developer": 1,
+          "followed by": 1,
+          "operating system": 62,
+          "original network": 1,
+          "platform": 63,
+          "publisher": 1
+        },
+        {
+          "followed by": 2,
+          "has part": 3,
+          "instance of": 3,
+          "located on terrain feature": 1,
+          "military branch": 1,
+          "mountain range": 8,
+          "operating system": 1,
+          "operator": 1,
+          "owned by": 1,
+          "religion": 1,
+          "said to be the same as": 2,
+          "sports season of league or competition": 2
+        },
+        {
+          "after a work by": 2,
+          "characters": 3,
+          "composer": 1,
+          "director": 1,
+          "distributor": 1,
+          "occupation": 1,
+          "owned by": 1,
+          "screenwriter": 32,
+          "sibling": 1
+        },
+        {
+          "after a work by": 67,
+          "composer": 2,
+          "developer": 3,
+          "director": 4,
+          "genre": 1,
+          "manufacturer": 1,
+          "member of political party": 1,
+          "notable work": 5,
+          "owned by": 2,
+          "screenwriter": 25
+        },
+        {
+          "after a work by": 6,
+          "characters": 3,
+          "composer": 3,
+          "country of origin": 1,
+          "director": 53,
+          "instance of": 1,
+          "language of work or name": 1,
+          "notable work": 3,
+          "said to be the same as": 1,
+          "screenwriter": 19,
+          "subsidiary": 1
+        },
+        {
+          "applies to jurisdiction": 33,
+          "contains administrative territorial entity": 24,
+          "country": 71,
+          "country of citizenship": 6,
+          "country of origin": 22,
+          "followed by": 1,
+          "has part": 1,
+          "head of government": 8,
+          "headquarters location": 1,
+          "instance of": 3,
+          "located in the administrative territorial entity": 1,
+          "located on terrain feature": 4,
+          "location": 3,
+          "location of formation": 2,
+          "manufacturer": 1,
+          "mouth of the watercourse": 1,
+          "participant": 11,
+          "participant of": 3,
+          "participating team": 29,
+          "winner": 4,
+          "work location": 2
+        },
+        {
+          "applies to jurisdiction": 1,
+          "contains administrative territorial entity": 7,
+          "country of citizenship": 1,
+          "head of government": 1,
+          "headquarters location": 5,
+          "league": 1,
+          "located in the administrative territorial entity": 1,
+          "located on terrain feature": 1,
+          "location of formation": 33,
+          "occupant": 7,
+          "participant of": 2,
+          "position held": 1,
+          "residence": 57,
+          "subsidiary": 1,
+          "winner": 1,
+          "work location": 50
+        },
+        {
+          "applies to jurisdiction": 1,
+          "country": 2,
+          "country of citizenship": 43,
+          "country of origin": 4,
+          "head of government": 1,
+          "residence": 2,
+          "work location": 2
+        },
+        {
+          "headquarters location": 1,
+          "location": 3,
+          "owned by": 1,
+          "residence": 7,
+          "work location": 17
+        },
+        {
+          "contains administrative territorial entity": 1,
+          "country of origin": 1,
+          "distributor": 1,
+          "has part": 3,
+          "head of government": 3,
+          "headquarters location": 5,
+          "heritage designation": 10,
+          "licensed to broadcast to": 3,
+          "located in the administrative territorial entity": 2,
+          "located on terrain feature": 3,
+          "location": 4,
+          "location of formation": 2,
+          "occupant": 6,
+          "operator": 1,
+          "place served by transport hub": 1,
+          "publisher": 1,
+          "residence": 5,
+          "said to be the same as": 4,
+          "subsidiary": 1,
+          "successful candidate": 1,
+          "tributary": 6,
+          "work location": 2
+        },
+        {
+          "applies to jurisdiction": 2,
+          "contains administrative territorial entity": 3,
+          "country of origin": 1,
+          "has part": 4,
+          "headquarters location": 14,
+          "instance of": 1,
+          "licensed to broadcast to": 7,
+          "located in the administrative territorial entity": 9,
+          "located on terrain feature": 6,
+          "location": 34,
+          "location of formation": 7,
+          "mountain range": 1,
+          "mouth of the watercourse": 3,
+          "occupant": 8,
+          "owned by": 1,
+          "participant": 2,
+          "participating team": 2,
+          "place served by transport hub": 16,
+          "residence": 2,
+          "subsidiary": 2,
+          "tributary": 3,
+          "work location": 1
+        },
+        {
+          "composer": 2,
+          "developer": 1,
+          "followed by": 12,
+          "genre": 1,
+          "has part": 1,
+          "performer": 8,
+          "successful candidate": 2
+        },
+        {
+          "characters": 2,
+          "composer": 12,
+          "director": 1,
+          "has part": 6,
+          "notable work": 4,
+          "participant": 7,
+          "performer": 62,
+          "winner": 1
+        },
+        {
+          "characters": 1,
+          "head of government": 27,
+          "notable work": 1,
+          "occupant": 1,
+          "owned by": 1,
+          "participant": 8,
+          "performer": 4,
+          "said to be the same as": 4,
+          "sibling": 1,
+          "successful candidate": 13,
+          "winner": 2
+        },
+        {
+          "characters": 5,
+          "composer": 1,
+          "followed by": 18,
+          "has part": 6,
+          "head of government": 6,
+          "mouth of the watercourse": 2,
+          "participant": 2,
+          "performer": 4,
+          "said to be the same as": 2,
+          "sibling": 2,
+          "successful candidate": 14,
+          "tributary": 4
+        },
+        {
+          "contains administrative territorial entity": 1,
+          "has part": 1,
+          "licensed to broadcast to": 1,
+          "located in the administrative territorial entity": 4,
+          "located on terrain feature": 30,
+          "mountain range": 13,
+          "mouth of the watercourse": 1,
+          "place served by transport hub": 1
+        },
+        {
+          "located on terrain feature": 7,
+          "mouth of the watercourse": 47,
+          "tributary": 15
+        },
+        {
+          "applies to jurisdiction": 8,
+          "contains administrative territorial entity": 38,
+          "has part": 3,
+          "headquarters location": 10,
+          "instance of": 1,
+          "licensed to broadcast to": 43,
+          "located in the administrative territorial entity": 51,
+          "located on terrain feature": 9,
+          "location": 10,
+          "mountain range": 27,
+          "mouth of the watercourse": 1,
+          "occupant": 2,
+          "owned by": 4,
+          "place served by transport hub": 42
+        },
+        {
+          "located on terrain feature": 1,
+          "occupant": 9,
+          "operator": 5,
+          "owned by": 13,
+          "subsidiary": 4
+        },
+        {
+          "head of government": 11,
+          "religion": 1
+        },
+        {
+          "characters": 2,
+          "father": 54,
+          "followed by": 2,
+          "head of government": 14,
+          "instance of": 1,
+          "manufacturer": 1,
+          "owned by": 3,
+          "said to be the same as": 1,
+          "sibling": 18,
+          "subsidiary": 6
+        },
+        {
+          "applies to jurisdiction": 3,
+          "characters": 1,
+          "has part": 24,
+          "head of government": 1,
+          "league": 2,
+          "member of political party": 2,
+          "movement": 2,
+          "owned by": 2,
+          "publisher": 1,
+          "religion": 1,
+          "said to be the same as": 1,
+          "subsidiary": 4
+        },
+        {
+          "country": 1,
+          "has part": 4,
+          "instance of": 1,
+          "military branch": 66,
+          "operator": 7,
+          "said to be the same as": 1,
+          "subsidiary": 5
+        },
+        {
+          "characters": 4,
+          "developer": 1,
+          "genre": 4,
+          "has part": 10,
+          "notable work": 3,
+          "original network": 11,
+          "participant of": 1,
+          "participating team": 1
+        },
+        {
+          "father": 3,
+          "has part": 1,
+          "owned by": 1,
+          "said to be the same as": 2,
+          "sibling": 42,
+          "subsidiary": 9
+        },
+        {
+          "followed by": 4,
+          "participant": 15,
+          "participant of": 52,
+          "participating team": 10,
+          "winner": 1
+        },
+        {
+          "league": 70,
+          "participant of": 1,
+          "participating team": 9,
+          "sports season of league or competition": 7,
+          "winner": 1
+        },
+        {
+          "developer": 54,
+          "manufacturer": 3,
+          "owned by": 3,
+          "publisher": 17,
+          "subsidiary": 2
+        },
+        {
+          "developer": 4,
+          "followed by": 1,
+          "headquarters location": 1,
+          "manufacturer": 64,
+          "owned by": 3,
+          "subsidiary": 2
+        },
+        {
+          "developer": 1,
+          "distributor": 33,
+          "genre": 1,
+          "original network": 6
+        },
+        {
+          "participant": 4,
+          "participating team": 4,
+          "successful candidate": 38,
+          "winner": 18
+        },
+        {
+          "characters": 58
+        },
+        {
+          "developer": 3,
+          "headquarters location": 3,
+          "original network": 1,
+          "owned by": 5,
+          "publisher": 39
+        },
+        {
+          "instrument": 46
+        },
+        {
+          "heritage designation": 61
+        },
+        {
+          "said to be the same as": 4,
+          "sibling": 1
+        },
+        {
+          "country": 1,
+          "member of political party": 68
+        },
+        {
+          "country": 2,
+          "country of origin": 3,
+          "followed by": 1,
+          "language of work or name": 33,
+          "location of formation": 1
+        },
+        {
+          "language of work or name": 10
+        },
+        {
+          "country": 2,
+          "country of origin": 30,
+          "language of work or name": 11,
+          "location of formation": 17
+        },
+        {
+          "distributor": 2,
+          "original network": 26
+        },
+        {
+          "distributor": 1,
+          "original network": 28
+        },
+        {
+          "distributor": 27,
+          "original network": 1
+        },
+        {
+          "composer": 54
+        },
+        {
+          "mouth of the watercourse": 11,
+          "tributary": 23
+        },
+        {
+          "mouth of the watercourse": 4,
+          "tributary": 1
+        },
+        {
+          "said to be the same as": 28
+        },
+        {
+          "taxon rank": 70
+        }
+      ]
+    ],
+    "evaluation_time": 0.35,
+    "v_measure": 0.6995776958008821,
+    "v_measure_std": 0.0
+  }
+}

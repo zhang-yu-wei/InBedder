@@ -1,0 +1,10 @@
+{
+  "dataset_revision": "e185fbe320c72810689fc5848eb6114e1ef5ec69",
+  "mteb_dataset_name": "StackOverflowDupQuestions",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "evaluation_time": 1.7,
+    "map": 0.2637983591918105,
+    "mrr": 0.29181189521263046
+  }
+}

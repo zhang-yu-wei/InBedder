@@ -1,0 +1,17 @@
+{
+    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/qa_t5-v1_1-large",
+    "model_id": "t5-v1_1-large-qa-ml=20",
+    "model_type": "seq2seq",
+    "reencoder": "average_word_embeddings_komninos",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "generation_configs": {
+        "num_beams": 1,
+        "max_new_tokens": 20,
+        "do_sample": false
+    },
+    "batch_size": 128,
+    "disable_instruction": false,
+    "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:"
+}

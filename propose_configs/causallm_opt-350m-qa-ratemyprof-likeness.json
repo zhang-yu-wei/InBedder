@@ -1,0 +1,20 @@
+{
+    "model_type": "causal",
+    "model_path": "alpaca_train/checkpoints/qa_opt-350m",
+    "model_id": "opt-350m-qa-ml=20",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "generation_configs": {
+        "num_beams": 1,
+        "max_new_tokens": 20,
+        "do_sample": false
+    },
+    "batch_size": 512,
+    "disable_instruction": false,
+    "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:",
+    "data_path": "InstructEmbedBench/results/goalex_rate_my_prof_0-gpt-4-ratemyprof_v1_converted.json",
+    "instruction": "Here is a student review on the course. How does the student like the course overall?",
+    "instruct_id": "ratemyprof-likeness",
+    "output_value": "last_ppt_layer_24"
+}

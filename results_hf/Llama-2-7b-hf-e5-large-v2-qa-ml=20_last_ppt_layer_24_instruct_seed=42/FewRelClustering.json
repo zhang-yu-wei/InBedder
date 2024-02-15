@@ -1,0 +1,684 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "FewRelClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "composer": 3,
+          "country of citizenship": 5,
+          "field of work": 32,
+          "genre": 4,
+          "has part": 1,
+          "instrument": 14,
+          "manufacturer": 1,
+          "movement": 32,
+          "notable work": 3,
+          "occupation": 6,
+          "position held": 1,
+          "religion": 14,
+          "residence": 1,
+          "said to be the same as": 1,
+          "work location": 7
+        },
+        {
+          "applies to jurisdiction": 1,
+          "field of work": 3,
+          "movement": 1,
+          "nominated for": 1,
+          "notable work": 1,
+          "winner": 13
+        },
+        {
+          "applies to jurisdiction": 2,
+          "characters": 7,
+          "country of citizenship": 12,
+          "field of work": 6,
+          "head of government": 15,
+          "member of political party": 22,
+          "military branch": 9,
+          "movement": 5,
+          "occupation": 4,
+          "position held": 31,
+          "religion": 15,
+          "residence": 13,
+          "said to be the same as": 2,
+          "sibling": 1,
+          "successful candidate": 1,
+          "work location": 19
+        },
+        {
+          "field of work": 3
+        },
+        {
+          "country of citizenship": 16,
+          "country of origin": 1,
+          "field of work": 14,
+          "genre": 2,
+          "instrument": 25,
+          "movement": 5,
+          "occupation": 31,
+          "religion": 3,
+          "residence": 3,
+          "work location": 6
+        },
+        {
+          "country of citizenship": 2,
+          "field of work": 6,
+          "genre": 1,
+          "instrument": 4,
+          "movement": 3,
+          "notable work": 1,
+          "occupation": 1,
+          "religion": 1,
+          "residence": 5,
+          "work location": 15
+        },
+        {
+          "applies to jurisdiction": 12,
+          "characters": 6,
+          "contains administrative territorial entity": 1,
+          "country": 2,
+          "country of citizenship": 3,
+          "country of origin": 8,
+          "field of work": 2,
+          "followed by": 12,
+          "genre": 2,
+          "has part": 6,
+          "headquarters location": 1,
+          "heritage designation": 1,
+          "instance of": 15,
+          "language of work or name": 10,
+          "located on terrain feature": 1,
+          "location": 16,
+          "location of formation": 4,
+          "manufacturer": 2,
+          "military branch": 10,
+          "operator": 3,
+          "owned by": 1,
+          "participant": 27,
+          "position held": 1,
+          "religion": 12,
+          "said to be the same as": 16,
+          "subsidiary": 2,
+          "winner": 2,
+          "work location": 2
+        },
+        {
+          "father": 19,
+          "field of work": 2,
+          "instrument": 1,
+          "military branch": 1,
+          "participant of": 1,
+          "sibling": 3
+        },
+        {
+          "applies to jurisdiction": 1,
+          "characters": 3,
+          "father": 34,
+          "field of work": 1,
+          "has part": 1,
+          "instance of": 2,
+          "military branch": 3,
+          "owned by": 1,
+          "position held": 6,
+          "religion": 4,
+          "residence": 1,
+          "screenwriter": 1,
+          "sibling": 18,
+          "successful candidate": 1,
+          "winner": 1,
+          "work location": 5
+        },
+        {
+          "developer": 13,
+          "field of work": 1,
+          "has part": 1,
+          "instance of": 8,
+          "manufacturer": 6,
+          "operating system": 66,
+          "platform": 5,
+          "publisher": 1
+        },
+        {
+          "after a work by": 23,
+          "characters": 18,
+          "country of citizenship": 2,
+          "country of origin": 3,
+          "field of work": 4,
+          "followed by": 3,
+          "genre": 3,
+          "has part": 1,
+          "instance of": 4,
+          "language of work or name": 25,
+          "movement": 2,
+          "notable work": 31,
+          "occupation": 2,
+          "publisher": 8,
+          "religion": 2,
+          "residence": 2,
+          "said to be the same as": 1,
+          "screenwriter": 7
+        },
+        {
+          "characters": 5,
+          "developer": 53,
+          "field of work": 1,
+          "genre": 5,
+          "instance of": 6,
+          "operating system": 1,
+          "platform": 59,
+          "publisher": 28
+        },
+        {
+          "architect": 1,
+          "field of work": 2,
+          "location": 3,
+          "movement": 9,
+          "notable work": 8,
+          "work location": 1
+        },
+        {
+          "applies to jurisdiction": 7,
+          "architect": 1,
+          "country": 4,
+          "field of work": 1,
+          "has part": 4,
+          "headquarters location": 18,
+          "instance of": 2,
+          "located in the administrative territorial entity": 5,
+          "location": 2,
+          "military branch": 2,
+          "occupant": 3,
+          "operator": 15,
+          "owned by": 7,
+          "publisher": 7,
+          "religion": 5,
+          "subsidiary": 22
+        },
+        {
+          "country of citizenship": 13,
+          "country of origin": 1,
+          "field of work": 1,
+          "followed by": 1,
+          "occupation": 1,
+          "participant": 3,
+          "participant of": 52,
+          "participating team": 1,
+          "residence": 1
+        },
+        {
+          "architect": 59,
+          "field of work": 1,
+          "located in the administrative territorial entity": 1,
+          "location": 2,
+          "movement": 4,
+          "notable work": 6,
+          "owned by": 2,
+          "residence": 4,
+          "said to be the same as": 1,
+          "work location": 1
+        },
+        {
+          "country of citizenship": 1,
+          "country of origin": 7,
+          "followed by": 2,
+          "genre": 11,
+          "has part": 1,
+          "headquarters location": 2,
+          "instance of": 2,
+          "instrument": 1,
+          "location of formation": 7,
+          "performer": 19,
+          "record label": 62,
+          "residence": 2
+        },
+        {
+          "composer": 22,
+          "country of citizenship": 2,
+          "country of origin": 6,
+          "followed by": 14,
+          "genre": 18,
+          "has part": 2,
+          "instrument": 1,
+          "language of work or name": 8,
+          "nominated for": 1,
+          "notable work": 6,
+          "performer": 54,
+          "publisher": 1,
+          "record label": 6
+        },
+        {
+          "applies to jurisdiction": 1,
+          "developer": 1,
+          "followed by": 3,
+          "has part": 1,
+          "headquarters location": 3,
+          "location of formation": 1,
+          "manufacturer": 3,
+          "occupant": 1,
+          "occupation": 1,
+          "operator": 4,
+          "owned by": 22,
+          "publisher": 2,
+          "record label": 1,
+          "subsidiary": 21
+        },
+        {
+          "composer": 1,
+          "country of citizenship": 1,
+          "country of origin": 10,
+          "genre": 11,
+          "has part": 25,
+          "instance of": 2,
+          "instrument": 22,
+          "location of formation": 42,
+          "movement": 1,
+          "notable work": 1,
+          "occupation": 1,
+          "record label": 5,
+          "residence": 1,
+          "said to be the same as": 1,
+          "work location": 2
+        },
+        {
+          "applies to jurisdiction": 1,
+          "country": 2,
+          "country of origin": 5,
+          "distributor": 2,
+          "headquarters location": 25,
+          "instrument": 1,
+          "language of work or name": 11,
+          "licensed to broadcast to": 4,
+          "located in the administrative territorial entity": 3,
+          "location": 10,
+          "location of formation": 16,
+          "manufacturer": 1,
+          "movement": 1,
+          "occupation": 1,
+          "operator": 1,
+          "owned by": 3,
+          "publisher": 9,
+          "record label": 1,
+          "residence": 10,
+          "subsidiary": 1,
+          "work location": 5
+        },
+        {
+          "after a work by": 2,
+          "characters": 3,
+          "composer": 18,
+          "director": 29,
+          "distributor": 23,
+          "has part": 1,
+          "nominated for": 1,
+          "notable work": 5,
+          "original network": 1,
+          "participant of": 1,
+          "performer": 2,
+          "screenwriter": 37
+        },
+        {
+          "after a work by": 45,
+          "characters": 6,
+          "composer": 2,
+          "distributor": 1,
+          "followed by": 1,
+          "has part": 1,
+          "instance of": 2,
+          "language of work or name": 2,
+          "notable work": 10,
+          "said to be the same as": 1,
+          "screenwriter": 14
+        },
+        {
+          "composer": 1,
+          "director": 1,
+          "nominated for": 25,
+          "performer": 1,
+          "screenwriter": 2,
+          "winner": 1
+        },
+        {
+          "after a work by": 6,
+          "characters": 16,
+          "composer": 1,
+          "country of origin": 9,
+          "director": 28,
+          "distributor": 34,
+          "followed by": 1,
+          "genre": 7,
+          "instance of": 4,
+          "language of work or name": 2,
+          "location of formation": 1,
+          "manufacturer": 1,
+          "military branch": 1,
+          "notable work": 1,
+          "residence": 1,
+          "screenwriter": 11
+        },
+        {
+          "characters": 18,
+          "composer": 1,
+          "country of origin": 7,
+          "genre": 7,
+          "has part": 13,
+          "language of work or name": 1,
+          "original network": 47,
+          "screenwriter": 4
+        },
+        {
+          "after a work by": 1,
+          "characters": 1,
+          "composer": 26,
+          "country of origin": 1,
+          "genre": 1,
+          "headquarters location": 1,
+          "instance of": 3,
+          "notable work": 12,
+          "occupation": 1,
+          "screenwriter": 1
+        },
+        {
+          "residence": 8,
+          "work location": 2
+        },
+        {
+          "applies to jurisdiction": 7,
+          "contains administrative territorial entity": 2,
+          "country": 2,
+          "country of citizenship": 2,
+          "head of government": 12,
+          "member of political party": 13,
+          "occupation": 4,
+          "position held": 7,
+          "religion": 2,
+          "residence": 16,
+          "work location": 7
+        },
+        {
+          "country of citizenship": 2,
+          "director": 1,
+          "father": 4,
+          "performer": 1,
+          "said to be the same as": 1,
+          "sibling": 41,
+          "winner": 1,
+          "work location": 1
+        },
+        {
+          "work location": 1
+        },
+        {
+          "applies to jurisdiction": 4,
+          "country": 1,
+          "followed by": 11,
+          "head of government": 1,
+          "participant": 2,
+          "participant of": 1,
+          "successful candidate": 61,
+          "work location": 1
+        },
+        {
+          "country of citizenship": 2,
+          "head of government": 2,
+          "headquarters location": 1,
+          "member of political party": 32,
+          "position held": 8,
+          "residence": 2,
+          "successful candidate": 13,
+          "work location": 2
+        },
+        {
+          "applies to jurisdiction": 1,
+          "characters": 1,
+          "head of government": 9,
+          "instrument": 1,
+          "member of political party": 3,
+          "position held": 2,
+          "successful candidate": 5,
+          "work location": 1
+        },
+        {
+          "country of citizenship": 2,
+          "country of origin": 1,
+          "participant": 26,
+          "participant of": 6,
+          "performer": 3,
+          "winner": 6
+        },
+        {
+          "applies to jurisdiction": 3,
+          "contains administrative territorial entity": 66,
+          "country": 44,
+          "country of origin": 1,
+          "has part": 11,
+          "headquarters location": 11,
+          "heritage designation": 1,
+          "instance of": 16,
+          "licensed to broadcast to": 2,
+          "located in the administrative territorial entity": 51,
+          "located on terrain feature": 42,
+          "location": 7,
+          "mountain range": 2,
+          "mouth of the watercourse": 1,
+          "occupant": 3,
+          "operator": 1,
+          "owned by": 3,
+          "place served by transport hub": 60,
+          "residence": 3
+        },
+        {
+          "contains administrative territorial entity": 1,
+          "country": 4,
+          "instance of": 1,
+          "located in the administrative territorial entity": 2,
+          "located on terrain feature": 26,
+          "mountain range": 2,
+          "mouth of the watercourse": 29,
+          "tributary": 13
+        },
+        {
+          "country": 1,
+          "has part": 1,
+          "instance of": 1,
+          "located in the administrative territorial entity": 2,
+          "located on terrain feature": 7,
+          "mountain range": 54
+        },
+        {
+          "applies to jurisdiction": 32,
+          "contains administrative territorial entity": 4,
+          "country": 6,
+          "country of citizenship": 2,
+          "has part": 2,
+          "head of government": 32,
+          "instance of": 2,
+          "member of political party": 2,
+          "owned by": 1,
+          "position held": 3,
+          "residence": 2,
+          "subsidiary": 2
+        },
+        {
+          "country": 1,
+          "has part": 1,
+          "head of government": 1,
+          "headquarters location": 1,
+          "instance of": 1,
+          "league": 17,
+          "occupant": 3,
+          "participant": 2,
+          "participant of": 4,
+          "participating team": 10,
+          "residence": 1,
+          "sports season of league or competition": 1,
+          "winner": 5
+        },
+        {
+          "country": 1,
+          "followed by": 3,
+          "head of government": 1,
+          "headquarters location": 1,
+          "instance of": 2,
+          "language of work or name": 1,
+          "location": 18,
+          "participant": 9,
+          "participant of": 10,
+          "participating team": 46,
+          "sports season of league or competition": 29,
+          "winner": 22
+        },
+        {
+          "country": 1,
+          "has part": 5,
+          "operator": 7,
+          "owned by": 3
+        },
+        {
+          "country": 1,
+          "has part": 1,
+          "headquarters location": 1,
+          "located in the administrative territorial entity": 3,
+          "location": 2,
+          "occupant": 54,
+          "owned by": 4
+        },
+        {
+          "contains administrative territorial entity": 1,
+          "country": 3,
+          "has part": 1,
+          "headquarters location": 2,
+          "league": 57,
+          "occupant": 1,
+          "owned by": 1,
+          "participating team": 6,
+          "sports season of league or competition": 1,
+          "subsidiary": 1
+        },
+        {
+          "headquarters location": 1,
+          "operator": 1,
+          "owned by": 7,
+          "publisher": 1,
+          "subsidiary": 15
+        },
+        {
+          "country": 1,
+          "developer": 4,
+          "distributor": 1,
+          "followed by": 1,
+          "headquarters location": 2,
+          "manufacturer": 26,
+          "operator": 2,
+          "owned by": 2,
+          "publisher": 1,
+          "subsidiary": 1
+        },
+        {
+          "country": 3,
+          "country of origin": 1,
+          "distributor": 6,
+          "genre": 2,
+          "language of work or name": 2,
+          "occupant": 1,
+          "original network": 31,
+          "owned by": 1
+        },
+        {
+          "applies to jurisdiction": 1,
+          "country of origin": 1,
+          "followed by": 2,
+          "language of work or name": 1,
+          "publisher": 1,
+          "religion": 2,
+          "said to be the same as": 11,
+          "sibling": 1
+        },
+        {
+          "country of origin": 1,
+          "followed by": 5,
+          "headquarters location": 1,
+          "location": 1,
+          "manufacturer": 33,
+          "operator": 32,
+          "owned by": 5
+        },
+        {
+          "heritage designation": 62,
+          "located in the administrative territorial entity": 1,
+          "location": 1
+        },
+        {
+          "heritage designation": 12
+        },
+        {
+          "language of work or name": 4,
+          "said to be the same as": 35,
+          "sibling": 1
+        },
+        {
+          "country of origin": 1,
+          "instance of": 1,
+          "language of work or name": 9,
+          "said to be the same as": 5,
+          "taxon rank": 1
+        },
+        {
+          "country": 3,
+          "licensed to broadcast to": 45,
+          "located in the administrative territorial entity": 2,
+          "said to be the same as": 1
+        },
+        {
+          "contains administrative territorial entity": 1,
+          "country": 1,
+          "mouth of the watercourse": 48,
+          "tributary": 46
+        },
+        {
+          "country": 1,
+          "country of origin": 3,
+          "manufacturer": 3
+        },
+        {
+          "country of citizenship": 2,
+          "military branch": 43,
+          "position held": 1
+        },
+        {
+          "nominated for": 1
+        },
+        {
+          "distributor": 1,
+          "followed by": 1,
+          "nominated for": 39,
+          "winner": 5
+        },
+        {
+          "licensed to broadcast to": 15,
+          "owned by": 1
+        },
+        {
+          "followed by": 11,
+          "instance of": 1,
+          "sports season of league or competition": 20,
+          "winner": 10
+        },
+        {
+          "taxon rank": 51
+        },
+        {
+          "taxon rank": 19
+        },
+        {
+          "licensed to broadcast to": 2
+        }
+      ]
+    ],
+    "evaluation_time": 1.33,
+    "v_measure": 0.6283502040850336,
+    "v_measure_std": 0.0
+  }
+}

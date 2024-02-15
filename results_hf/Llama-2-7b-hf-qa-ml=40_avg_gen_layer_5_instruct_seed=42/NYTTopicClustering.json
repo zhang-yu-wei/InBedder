@@ -1,0 +1,95 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "NYTTopicClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "has a topic of arts": 41,
+          "has a topic of business": 38,
+          "has a topic of education": 44,
+          "has a topic of estate": 72,
+          "has a topic of health": 34,
+          "has a topic of politics": 35,
+          "has a topic of science": 30,
+          "has a topic of sports": 20,
+          "has a topic of technology": 40
+        },
+        {
+          "has a topic of arts": 44,
+          "has a topic of business": 102,
+          "has a topic of education": 71,
+          "has a topic of estate": 42,
+          "has a topic of health": 100,
+          "has a topic of politics": 67,
+          "has a topic of science": 78,
+          "has a topic of sports": 32,
+          "has a topic of technology": 82
+        },
+        {
+          "has a topic of arts": 43,
+          "has a topic of business": 27,
+          "has a topic of education": 63,
+          "has a topic of estate": 24,
+          "has a topic of health": 35,
+          "has a topic of politics": 48,
+          "has a topic of science": 22,
+          "has a topic of sports": 35,
+          "has a topic of technology": 48
+        },
+        {
+          "has a topic of arts": 41,
+          "has a topic of business": 13,
+          "has a topic of education": 34,
+          "has a topic of estate": 8,
+          "has a topic of health": 34,
+          "has a topic of politics": 55,
+          "has a topic of science": 62,
+          "has a topic of sports": 11,
+          "has a topic of technology": 39
+        },
+        {
+          "has a topic of arts": 55,
+          "has a topic of business": 51,
+          "has a topic of education": 23,
+          "has a topic of estate": 77,
+          "has a topic of health": 28,
+          "has a topic of politics": 19,
+          "has a topic of science": 43,
+          "has a topic of sports": 35,
+          "has a topic of technology": 27
+        },
+        {
+          "has a topic of arts": 14,
+          "has a topic of business": 7,
+          "has a topic of education": 3,
+          "has a topic of estate": 15,
+          "has a topic of health": 6,
+          "has a topic of politics": 16,
+          "has a topic of science": 5,
+          "has a topic of sports": 19,
+          "has a topic of technology": 4
+        },
+        {
+          "has a topic of arts": 2,
+          "has a topic of business": 1,
+          "has a topic of education": 1,
+          "has a topic of sports": 86
+        },
+        {
+          "has a topic of education": 1,
+          "has a topic of estate": 2,
+          "has a topic of health": 3,
+          "has a topic of sports": 2
+        },
+        {
+          "has a topic of business": 1
+        }
+      ]
+    ],
+    "evaluation_time": 0.26,
+    "v_measure": 0.08324254626725192,
+    "v_measure_std": 0.0
+  }
+}

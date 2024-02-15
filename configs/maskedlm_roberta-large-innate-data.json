@@ -1,0 +1,16 @@
+{
+    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/InnaTE/roberta-large-InnaTE-abl-data-1129",
+    "model_id": "roberta-large-innate-abl-data-ml=3",
+    "model_type": "masked",
+    "reencoder": "average_word_embeddings_komninos",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "use_flash_attention_2": false,
+    "generation_configs": {
+        "mask_length": 3
+    },
+    "batch_size": 32,
+    "disable_instruction": false,
+    "pattern": "Passage: {input}</s>{instruction} "
+}

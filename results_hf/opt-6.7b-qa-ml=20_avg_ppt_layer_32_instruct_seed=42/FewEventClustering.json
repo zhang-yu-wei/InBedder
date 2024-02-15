@@ -1,0 +1,363 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "FewEventClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "Education": 10,
+          "Employment Tenure": 5,
+          "End Position": 3,
+          "Leadership": 21,
+          "Organization Board Membership": 2,
+          "Place Lived": 3,
+          "Sports Team Roster": 57,
+          "Sports Team Season Record": 19,
+          "Start Position": 3
+        },
+        {
+          "Contact": 1,
+          "Education": 184,
+          "Employment Tenure": 70,
+          "Film Crew Gig": 1,
+          "Leadership": 7,
+          "Organization Board Membership": 1,
+          "Place Lived": 1
+        },
+        {
+          "Attack": 1,
+          "Education": 20,
+          "Employment Tenure": 17,
+          "Leadership": 8,
+          "Marry": 20,
+          "Military Command": 4,
+          "Military Service": 2,
+          "Organization Board Membership": 2,
+          "Place Lived": 21,
+          "Sports Team Roster": 1,
+          "Transfer Ownership": 1,
+          "Transport person": 1
+        },
+        {
+          "Broadcast": 1,
+          "Education": 123,
+          "Employment Tenure": 7,
+          "Leadership": 58,
+          "Organization Board Membership": 1,
+          "Place Lived": 5
+        },
+        {
+          "Education": 96,
+          "Employment Tenure": 28,
+          "Group Membership": 1,
+          "Leadership": 16,
+          "Marry": 1,
+          "Military Service": 2,
+          "Place Lived": 15
+        },
+        {
+          "Arrest Jail": 2,
+          "Artifact": 1,
+          "Attack": 9,
+          "Broadcast": 17,
+          "Contact": 6,
+          "Correspondence": 2,
+          "Demonstrate": 1,
+          "Die": 5,
+          "Education": 5,
+          "Employment Tenure": 6,
+          "End Position": 3,
+          "Leadership": 61,
+          "Marry": 1,
+          "Meet": 4,
+          "Military Command": 10,
+          "Military Service": 2,
+          "Phone Write": 1,
+          "Place Lived": 4,
+          "Start Position": 5,
+          "Transfer Money": 7,
+          "Transfer Ownership": 4,
+          "Transport": 7,
+          "Transport Artifact": 1,
+          "Transport person": 8
+        },
+        {
+          "Artifact": 1,
+          "Broadcast": 2,
+          "Contact": 1,
+          "Correspondence": 1,
+          "Education": 8,
+          "Employment Tenure": 46,
+          "End Position": 9,
+          "Leadership": 102,
+          "Marry": 6,
+          "Meet": 1,
+          "Military Service": 1,
+          "Organization Board Membership": 30,
+          "Place Lived": 10,
+          "Sports Team Roster": 1,
+          "Start Position": 8,
+          "Transfer Money": 2,
+          "Transfer Ownership": 1,
+          "Transport": 1
+        },
+        {
+          "Education": 9,
+          "Employment Tenure": 43,
+          "Film Crew Gig": 28,
+          "Group Membership": 3,
+          "Leadership": 6,
+          "Marry": 77,
+          "Organization Board Membership": 1,
+          "Place Lived": 10,
+          "Transfer Ownership": 1
+        },
+        {
+          "Education": 6,
+          "Employment Tenure": 1,
+          "Group Membership": 236,
+          "Marry": 3,
+          "Place Lived": 5
+        },
+        {
+          "Education": 2,
+          "Employment Tenure": 1,
+          "Olympic Athlete Affiliation": 9,
+          "Olympic Medal Honor": 152
+        },
+        {
+          "Education": 5,
+          "Employment Tenure": 17,
+          "End Position": 1,
+          "Film Crew Gig": 1,
+          "Leadership": 1,
+          "Military Service": 1,
+          "Organization Board Membership": 1,
+          "Start Position": 1,
+          "Transfer Money": 1
+        },
+        {
+          "Arrest Jail": 4,
+          "Artifact": 2,
+          "Attack": 21,
+          "Broadcast": 31,
+          "Contact": 16,
+          "Correspondence": 8,
+          "Demonstrate": 19,
+          "Die": 10,
+          "Education": 1,
+          "Elect": 14,
+          "Employment Tenure": 1,
+          "End Position": 15,
+          "Marry": 3,
+          "Meet": 4,
+          "Start Position": 6,
+          "Transfer Money": 32,
+          "Transfer Ownership": 4,
+          "Transport": 7,
+          "Transport Artifact": 3,
+          "Transport person": 21
+        },
+        {
+          "Arrest Jail": 6,
+          "Artifact": 1,
+          "Attack": 30,
+          "Broadcast": 9,
+          "Charge Indict": 7,
+          "Contact": 6,
+          "Demonstrate": 3,
+          "Die": 13,
+          "Education": 1,
+          "Employment Tenure": 1,
+          "End Position": 1,
+          "Leadership": 2,
+          "Marry": 1,
+          "Meet": 6,
+          "Sentence": 14,
+          "Transfer Money": 9,
+          "Transfer Ownership": 3,
+          "Transport": 13,
+          "Transport Artifact": 1,
+          "Transport person": 24
+        },
+        {
+          "Education": 3,
+          "Film Crew Gig": 2,
+          "Group Membership": 272,
+          "Leadership": 13,
+          "Marry": 10,
+          "Place Lived": 15
+        },
+        {
+          "Education": 1
+        },
+        {
+          "Attack": 1,
+          "Broadcast": 5,
+          "Contact": 4,
+          "Demonstrate": 3,
+          "Die": 1,
+          "Education": 4,
+          "Elect": 5,
+          "Employment Tenure": 3,
+          "End Position": 8,
+          "Group Membership": 3,
+          "Leadership": 90,
+          "Marry": 13,
+          "Meet": 4,
+          "Military Command": 2,
+          "Organization Board Membership": 6,
+          "Place Lived": 1,
+          "Sports Team Roster": 1,
+          "Start Position": 6,
+          "Transport": 2,
+          "Transport Artifact": 1,
+          "Transport person": 6
+        },
+        {
+          "Education": 3,
+          "Employment Tenure": 5,
+          "Film Crew Gig": 77
+        },
+        {
+          "Arrest Jail": 4,
+          "Artifact": 12,
+          "Attack": 9,
+          "Broadcast": 46,
+          "Charge Indict": 9,
+          "Contact": 14,
+          "Correspondence": 23,
+          "Demonstrate": 6,
+          "Die": 6,
+          "Education": 1,
+          "Elect": 9,
+          "Employment Tenure": 5,
+          "End Position": 27,
+          "Leadership": 6,
+          "Marry": 4,
+          "Meet": 9,
+          "Organization Board Membership": 1,
+          "Phone Write": 13,
+          "Place Lived": 1,
+          "Sentence": 3,
+          "Start Position": 12,
+          "Transfer Money": 48,
+          "Transfer Ownership": 39,
+          "Transport": 36,
+          "Transport Artifact": 7,
+          "Transport person": 22
+        },
+        {
+          "Artifact": 16,
+          "Broadcast": 7,
+          "Contact": 3,
+          "Correspondence": 4,
+          "Die": 3,
+          "End Position": 1,
+          "Leadership": 1,
+          "Start Position": 3,
+          "Transfer Money": 25,
+          "Transfer Ownership": 13,
+          "Transport Artifact": 32,
+          "Transport person": 9
+        },
+        {
+          "Employment Tenure": 1,
+          "Leadership": 3,
+          "Marry": 1,
+          "Military Command": 169,
+          "Military Service": 8,
+          "Place Lived": 3
+        },
+        {
+          "Elect": 1,
+          "Leadership": 18,
+          "Marry": 1,
+          "Meet": 1,
+          "Place Lived": 1
+        },
+        {
+          "Leadership": 1,
+          "Military Service": 188
+        },
+        {
+          "End Position": 1,
+          "Leadership": 4,
+          "Military Command": 1,
+          "Phone Write": 2,
+          "Transfer Ownership": 3,
+          "Transport": 36
+        },
+        {
+          "Arrest Jail": 2,
+          "Attack": 7,
+          "Broadcast": 4,
+          "Demonstrate": 18,
+          "Die": 2,
+          "Leadership": 2,
+          "Transport person": 4
+        },
+        {
+          "Marry": 121,
+          "Military Command": 1,
+          "Place Lived": 1
+        },
+        {
+          "End Position": 3,
+          "Marry": 146,
+          "Military Command": 1,
+          "Place Lived": 3
+        },
+        {
+          "Employment Tenure": 1,
+          "Marry": 100,
+          "Military Command": 1,
+          "Military Service": 1,
+          "Place Lived": 4,
+          "Start Position": 1
+        },
+        {
+          "Group Membership": 2
+        },
+        {
+          "Olympic Athlete Affiliation": 26,
+          "Olympic Medal Honor": 165
+        },
+        {
+          "Olympic Athlete Affiliation": 3,
+          "Olympic Medal Honor": 79
+        },
+        {
+          "Olympic Medal Honor": 100,
+          "Place Lived": 1
+        },
+        {
+          "Artifact": 1,
+          "Attack": 3,
+          "Broadcast": 4,
+          "Contact": 1,
+          "Die": 1,
+          "End Position": 1,
+          "Meet": 1,
+          "Transfer Money": 4,
+          "Transfer Ownership": 3,
+          "Transport Artifact": 4,
+          "Transport person": 6
+        },
+        {
+          "Employment Tenure": 1,
+          "Military Service": 84
+        },
+        {
+          "Military Command": 82,
+          "Military Service": 3,
+          "Place Lived": 4
+        }
+      ]
+    ],
+    "evaluation_time": 4.36,
+    "v_measure": 0.5776184543481472,
+    "v_measure_std": 0.0
+  }
+}

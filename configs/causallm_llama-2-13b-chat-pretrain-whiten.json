@@ -1,0 +1,20 @@
+{
+    "model_path": "/data/feng/hf-models/Llama-2-13b-chat-hf",
+    "model_type": "causal",
+    "model_id": "llama-2-13b-chat-pretrain-ml=40",
+    "reencoder": "average_word_embeddings_komninos",
+    "max_input_length": 512,
+    "dtype": "bfloat16",
+    "seed": 42,
+    "use_flash_attention_2": true,
+    "use_whitening": true,
+    "generation_configs": {
+        "temperature": 0.6,
+        "top_p": 0.9,
+        "max_new_tokens": 40,
+        "do_sample": true
+    },
+    "batch_size": 64,
+    "disable_instruction": false,
+    "pattern": "[INST] Your task is to give an answer according to the instruction and input. Please keep your answer short.\n\nInstruction: {instruction}\n\nInput: {input}\n\n### Your Answer: [/INST]"
+}

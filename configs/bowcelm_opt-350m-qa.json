@@ -1,0 +1,13 @@
+{
+    "model_type": "bow",
+    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/bowce_qa_opt-350m",
+    "model_id": "bowce-opt-350m-qa-ml=20",
+    "reencoder": "average_word_embeddings_komninos",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "generation_configs": {},
+    "batch_size": 128,
+    "disable_instruction": false,
+    "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:"
+}

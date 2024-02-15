@@ -1,0 +1,18 @@
+{
+    "model_type": "causal",
+    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/alpaca_opt-2.7b",
+    "model_id": "opt-2.7b-alpaca-ml=20",
+    "reencoder": "average_word_embeddings_komninos",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "use_flash_attention_2": false,
+    "generation_configs": {
+        "num_beams": 1,
+        "max_new_tokens": 20,
+        "do_sample": false
+    },
+    "batch_size": 32,
+    "disable_instruction": false,
+    "pattern": "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:"
+}

@@ -1,0 +1,23 @@
+{
+    "model_type": "causal",
+    "model_path": "alpaca_train/checkpoints/qa_Llama-2-7b-hf",
+    "model_id": "Llama-2-7b-hf-qa-ml=20",
+    "max_input_length": 512,
+    "dtype": "bfloat16",
+    "seed": 42,
+    "use_flash_attention_2": true,
+    "generation_configs": {
+        "temperature": 0.6,
+        "top_p": 0.9,
+        "max_new_tokens": 20,
+        "do_sample": true
+    },
+    "batch_size": 64,
+    "disable_instruction": false,
+    "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:",
+    "data_path": "InstructEmbedBench/results/goalex_feedbacks_0-gpt-4-feedbacks_v3_converted.json",
+    "instruction": "Here is a human feedback on machine-generated text. Categorize the type of reason why the human like or dislike it.",
+    "instruct_id": "feedback-reason",
+    "output_value": "last_ppt_layer_32",
+    "n_clusters": 3
+}

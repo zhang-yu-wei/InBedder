@@ -1,0 +1,29 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "FeedbacksClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "1) Inclusion of Main Points and Necessary Details": 144,
+          "2) Content Accuracy": 136,
+          "3) Structure, Coherence or Grammatical Errors": 92
+        },
+        {
+          "1) Inclusion of Main Points and Necessary Details": 87,
+          "2) Content Accuracy": 95,
+          "3) Structure, Coherence or Grammatical Errors": 99
+        },
+        {
+          "1) Inclusion of Main Points and Necessary Details": 21,
+          "2) Content Accuracy": 21,
+          "3) Structure, Coherence or Grammatical Errors": 61
+        }
+      ]
+    ],
+    "evaluation_time": 0.08,
+    "v_measure": 0.027188783623251698,
+    "v_measure_std": 0.0
+  }
+}

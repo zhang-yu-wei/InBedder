@@ -1,0 +1,119 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "NYTLocationClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "has a location of america": 30,
+          "has a location of britain": 36,
+          "has a location of canada": 61,
+          "has a location of china": 30,
+          "has a location of france": 17,
+          "has a location of germany": 21,
+          "has a location of iraq": 14,
+          "has a location of italy": 39,
+          "has a location of japan": 26,
+          "has a location of russia": 32
+        },
+        {
+          "has a location of america": 51,
+          "has a location of britain": 31,
+          "has a location of canada": 18,
+          "has a location of china": 33,
+          "has a location of france": 45,
+          "has a location of germany": 19,
+          "has a location of iraq": 20,
+          "has a location of italy": 32,
+          "has a location of japan": 37,
+          "has a location of russia": 20
+        },
+        {
+          "has a location of america": 20,
+          "has a location of britain": 27,
+          "has a location of canada": 28,
+          "has a location of china": 42,
+          "has a location of france": 48,
+          "has a location of germany": 23,
+          "has a location of iraq": 30,
+          "has a location of italy": 22,
+          "has a location of japan": 59,
+          "has a location of russia": 41
+        },
+        {
+          "has a location of america": 42,
+          "has a location of britain": 30,
+          "has a location of canada": 33,
+          "has a location of china": 49,
+          "has a location of france": 56,
+          "has a location of germany": 28,
+          "has a location of iraq": 44,
+          "has a location of italy": 27,
+          "has a location of japan": 44,
+          "has a location of russia": 39
+        },
+        {
+          "has a location of america": 36,
+          "has a location of britain": 20,
+          "has a location of canada": 11,
+          "has a location of china": 9,
+          "has a location of france": 9,
+          "has a location of germany": 4,
+          "has a location of italy": 19,
+          "has a location of japan": 5,
+          "has a location of russia": 7
+        },
+        {
+          "has a location of america": 8,
+          "has a location of britain": 14,
+          "has a location of canada": 20,
+          "has a location of china": 19,
+          "has a location of france": 12,
+          "has a location of germany": 86,
+          "has a location of iraq": 66,
+          "has a location of italy": 13,
+          "has a location of japan": 14,
+          "has a location of russia": 20
+        },
+        {
+          "has a location of america": 7,
+          "has a location of britain": 52,
+          "has a location of canada": 27,
+          "has a location of china": 24,
+          "has a location of france": 27,
+          "has a location of germany": 21,
+          "has a location of iraq": 23,
+          "has a location of italy": 43,
+          "has a location of japan": 23,
+          "has a location of russia": 15
+        },
+        {
+          "has a location of america": 5,
+          "has a location of britain": 6,
+          "has a location of canada": 18,
+          "has a location of china": 10,
+          "has a location of france": 2,
+          "has a location of germany": 13,
+          "has a location of iraq": 19,
+          "has a location of italy": 20,
+          "has a location of japan": 4,
+          "has a location of russia": 40
+        },
+        {
+          "has a location of japan": 3,
+          "has a location of russia": 2
+        },
+        {
+          "has a location of america": 17,
+          "has a location of germany": 1,
+          "has a location of italy": 1,
+          "has a location of japan": 1
+        }
+      ]
+    ],
+    "evaluation_time": 0.3,
+    "v_measure": 0.0668636630529595,
+    "v_measure_std": 0.0
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "hf_name": "hkunlp/instructor-large",
+    "model_type": "instructor",
+    "batch_size": 64,
+    "seed": 42,
+    "disable_instruction": false,
+    "pattern": "{instruction}: {input}"
+}

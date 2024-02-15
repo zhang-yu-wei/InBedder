@@ -1,0 +1,38 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "RateMyProfClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 183,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 106,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 102,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 124
+        },
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 171,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 170,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 213,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 285
+        },
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 142,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 139,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 180,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 141
+        },
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 78,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 159,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 79,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 24
+        }
+      ]
+    ],
+    "evaluation_time": 10.79,
+    "v_measure": 0.030635907276129005,
+    "v_measure_std": 0.0
+  }
+}

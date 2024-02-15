@@ -1,0 +1,128 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "NYTLocationClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "has a location of america": 33,
+          "has a location of britain": 57,
+          "has a location of canada": 96,
+          "has a location of china": 45,
+          "has a location of france": 38,
+          "has a location of germany": 44,
+          "has a location of iraq": 31,
+          "has a location of italy": 76,
+          "has a location of japan": 41,
+          "has a location of russia": 50
+        },
+        {
+          "has a location of america": 25,
+          "has a location of britain": 20,
+          "has a location of canada": 16,
+          "has a location of china": 15,
+          "has a location of france": 19,
+          "has a location of germany": 25,
+          "has a location of iraq": 14,
+          "has a location of italy": 23,
+          "has a location of japan": 13,
+          "has a location of russia": 6
+        },
+        {
+          "has a location of canada": 1,
+          "has a location of china": 3,
+          "has a location of france": 94,
+          "has a location of iraq": 5,
+          "has a location of italy": 1,
+          "has a location of japan": 39,
+          "has a location of russia": 8
+        },
+        {
+          "has a location of america": 21,
+          "has a location of britain": 14,
+          "has a location of canada": 30,
+          "has a location of china": 33,
+          "has a location of france": 18,
+          "has a location of germany": 13,
+          "has a location of iraq": 68,
+          "has a location of italy": 9,
+          "has a location of japan": 51,
+          "has a location of russia": 56
+        },
+        {
+          "has a location of britain": 15,
+          "has a location of canada": 11,
+          "has a location of china": 14,
+          "has a location of germany": 82,
+          "has a location of iraq": 55,
+          "has a location of italy": 7,
+          "has a location of japan": 24,
+          "has a location of russia": 55
+        },
+        {
+          "has a location of america": 3,
+          "has a location of britain": 5,
+          "has a location of canada": 2,
+          "has a location of china": 5,
+          "has a location of france": 3,
+          "has a location of germany": 4,
+          "has a location of iraq": 6,
+          "has a location of italy": 2,
+          "has a location of japan": 4
+        },
+        {
+          "has a location of america": 121,
+          "has a location of britain": 25,
+          "has a location of canada": 31,
+          "has a location of china": 8,
+          "has a location of france": 4,
+          "has a location of germany": 2,
+          "has a location of iraq": 6,
+          "has a location of italy": 19,
+          "has a location of japan": 15,
+          "has a location of russia": 5
+        },
+        {
+          "has a location of america": 5,
+          "has a location of britain": 17,
+          "has a location of canada": 3,
+          "has a location of china": 72,
+          "has a location of france": 9,
+          "has a location of germany": 25,
+          "has a location of iraq": 11,
+          "has a location of italy": 26,
+          "has a location of japan": 9,
+          "has a location of russia": 16
+        },
+        {
+          "has a location of america": 3,
+          "has a location of britain": 41,
+          "has a location of canada": 11,
+          "has a location of china": 13,
+          "has a location of france": 20,
+          "has a location of germany": 9,
+          "has a location of iraq": 7,
+          "has a location of italy": 41,
+          "has a location of japan": 13,
+          "has a location of russia": 14
+        },
+        {
+          "has a location of america": 5,
+          "has a location of britain": 22,
+          "has a location of canada": 15,
+          "has a location of china": 8,
+          "has a location of france": 11,
+          "has a location of germany": 12,
+          "has a location of iraq": 13,
+          "has a location of italy": 12,
+          "has a location of japan": 7,
+          "has a location of russia": 6
+        }
+      ]
+    ],
+    "evaluation_time": 0.29,
+    "v_measure": 0.14889494086424468,
+    "v_measure_std": 0.0
+  }
+}

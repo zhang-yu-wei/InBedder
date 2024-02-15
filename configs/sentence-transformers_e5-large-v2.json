@@ -1,0 +1,7 @@
+{
+    "hf_name": "intfloat/e5-large-v2",
+    "model_type": "sentence-transformers",
+    "batch_size": 32,
+    "seed": 42,
+    "disable_instruction": true
+}

@@ -1,0 +1,76 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "NYTTopicClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "has a topic of arts": 81,
+          "has a topic of business": 94,
+          "has a topic of education": 72,
+          "has a topic of estate": 108,
+          "has a topic of health": 93,
+          "has a topic of politics": 73,
+          "has a topic of science": 76,
+          "has a topic of sports": 69,
+          "has a topic of technology": 90
+        },
+        {
+          "has a topic of arts": 108,
+          "has a topic of business": 138,
+          "has a topic of education": 146,
+          "has a topic of estate": 130,
+          "has a topic of health": 115,
+          "has a topic of politics": 110,
+          "has a topic of science": 154,
+          "has a topic of sports": 115,
+          "has a topic of technology": 126
+        },
+        {
+          "has a topic of arts": 19,
+          "has a topic of business": 6,
+          "has a topic of education": 19,
+          "has a topic of estate": 1,
+          "has a topic of health": 8,
+          "has a topic of politics": 15,
+          "has a topic of science": 7,
+          "has a topic of sports": 3,
+          "has a topic of technology": 16
+        },
+        {
+          "has a topic of arts": 1,
+          "has a topic of estate": 1,
+          "has a topic of health": 2,
+          "has a topic of politics": 3,
+          "has a topic of technology": 8
+        },
+        {
+          "has a topic of arts": 9,
+          "has a topic of education": 2,
+          "has a topic of health": 5,
+          "has a topic of politics": 39,
+          "has a topic of sports": 3
+        },
+        {
+          "has a topic of arts": 1,
+          "has a topic of business": 2,
+          "has a topic of education": 1,
+          "has a topic of sports": 50
+        },
+        {
+          "has a topic of arts": 21
+        },
+        {
+          "has a topic of science": 3
+        },
+        {
+          "has a topic of health": 17
+        }
+      ]
+    ],
+    "evaluation_time": 375.39,
+    "v_measure": 0.08509434888324925,
+    "v_measure_std": 0.0
+  }
+}

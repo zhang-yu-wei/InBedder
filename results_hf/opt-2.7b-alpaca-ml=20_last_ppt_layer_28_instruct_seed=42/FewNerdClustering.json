@@ -1,0 +1,620 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "FewNerdClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "Geo-Political Entities": 9,
+          "actor": 11,
+          "artist, author": 18,
+          "athlete": 6,
+          "attack, battle ,war ,military conflict": 2,
+          "award": 4,
+          "broadcast program": 14,
+          "company": 2,
+          "disaster": 1,
+          "disease": 1,
+          "film": 16,
+          "food": 1,
+          "game": 4,
+          "god": 1,
+          "government, governmentagency": 3,
+          "language": 3,
+          "library": 2,
+          "living thing": 1,
+          "media, newspaper": 6,
+          "music": 11,
+          "political party": 1,
+          "politician": 10,
+          "religion": 1,
+          "restaurant": 4,
+          "scholar": 5,
+          "ship": 2,
+          "show organization": 2,
+          "soldier": 3,
+          "sports event": 1,
+          "sports team": 2,
+          "theater": 2,
+          "weapon": 1,
+          "written art": 8
+        },
+        {
+          "Geo-Political Entities": 6,
+          "award": 4,
+          "broadcast program": 5,
+          "company": 3,
+          "education": 1,
+          "film": 1,
+          "hotel": 3,
+          "library": 1,
+          "music": 1,
+          "park": 1,
+          "restaurant": 1,
+          "road, railway, highway, transit": 3,
+          "show organization": 2,
+          "theater": 29,
+          "written art": 2
+        },
+        {
+          "Geo-Political Entities": 7,
+          "award": 4,
+          "company": 1,
+          "education": 49,
+          "educational degree": 13,
+          "government, governmentagency": 7,
+          "hospital": 15,
+          "library": 8,
+          "park": 1,
+          "religion": 1,
+          "sports facility": 1,
+          "written art": 3
+        },
+        {
+          "Geo-Political Entities": 10,
+          "award": 1,
+          "company": 3,
+          "currency": 1,
+          "education": 1,
+          "election": 7,
+          "government, governmentagency": 44,
+          "law": 9,
+          "library": 2,
+          "media, newspaper": 8,
+          "medical": 1,
+          "mountain": 1,
+          "park": 2,
+          "political party": 48,
+          "politician": 2,
+          "religion": 5,
+          "road, railway, highway, transit": 1,
+          "scholar": 1,
+          "sports league": 1,
+          "written art": 2
+        },
+        {
+          "Geo-Political Entities": 136,
+          "film": 1,
+          "hotel": 2,
+          "island": 1,
+          "library": 3,
+          "media, newspaper": 1,
+          "park": 2,
+          "road, railway, highway, transit": 1,
+          "ship": 1,
+          "sports facility": 2,
+          "written art": 2
+        },
+        {
+          "Geo-Political Entities": 2,
+          "airplane": 1,
+          "award": 2,
+          "car": 18,
+          "chemical": 1,
+          "company": 15,
+          "currency": 3,
+          "disease": 1,
+          "food": 4,
+          "game": 10,
+          "law": 1,
+          "library": 1,
+          "media, newspaper": 1,
+          "ship": 1,
+          "software": 40,
+          "train": 1,
+          "weapon": 1,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 11,
+          "award": 1,
+          "bodies of water": 7,
+          "chemical": 1,
+          "company": 7,
+          "government, governmentagency": 1,
+          "hotel": 1,
+          "island": 1,
+          "law": 1,
+          "library": 1,
+          "park": 5,
+          "road, railway, highway, transit": 78,
+          "ship": 2,
+          "show organization": 1,
+          "sports facility": 1,
+          "train": 3
+        },
+        {
+          "Geo-Political Entities": 124,
+          "airport": 1,
+          "bodies of water": 1,
+          "island": 8,
+          "language": 1,
+          "mountain": 5,
+          "park": 2,
+          "road, railway, highway, transit": 6
+        },
+        {
+          "Geo-Political Entities": 116,
+          "airport": 2,
+          "bodies of water": 5,
+          "car": 1,
+          "company": 1,
+          "disaster": 1,
+          "hospital": 1,
+          "island": 5,
+          "park": 1,
+          "political party": 1,
+          "restaurant": 1,
+          "road, railway, highway, transit": 3
+        },
+        {
+          "Geo-Political Entities": 154,
+          "attack, battle ,war ,military conflict": 1,
+          "government, governmentagency": 2,
+          "island": 3,
+          "music": 1,
+          "sports team": 1
+        },
+        {
+          "Geo-Political Entities": 49,
+          "award": 1,
+          "company": 1,
+          "government, governmentagency": 1
+        },
+        {
+          "Geo-Political Entities": 16,
+          "attack, battle ,war ,military conflict": 38,
+          "disaster": 7,
+          "disease": 1,
+          "government, governmentagency": 1,
+          "island": 2,
+          "law": 3,
+          "political party": 2,
+          "politician": 2,
+          "protest": 4,
+          "religion": 1,
+          "ship": 1,
+          "soldier": 1,
+          "sports event": 1,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 159,
+          "attack, battle ,war ,military conflict": 1,
+          "company": 2,
+          "currency": 17,
+          "director": 1,
+          "disease": 1,
+          "education": 1,
+          "election": 1,
+          "government, governmentagency": 10,
+          "island": 2,
+          "language": 2,
+          "law": 1,
+          "media, newspaper": 1,
+          "political party": 1,
+          "politician": 2,
+          "protest": 2,
+          "road, railway, highway, transit": 1,
+          "sports event": 1,
+          "sports league": 1,
+          "written art": 2
+        },
+        {
+          "Geo-Political Entities": 14,
+          "company": 1
+        },
+        {
+          "Geo-Political Entities": 14,
+          "bodies of water": 49,
+          "disaster": 1,
+          "island": 1,
+          "mountain": 19,
+          "park": 6,
+          "restaurant": 1,
+          "road, railway, highway, transit": 1
+        },
+        {
+          "Geo-Political Entities": 31,
+          "actor": 1,
+          "artist, author": 3,
+          "athlete": 1,
+          "attack, battle ,war ,military conflict": 4,
+          "god": 2,
+          "government, governmentagency": 5,
+          "political party": 4,
+          "politician": 51,
+          "protest": 1,
+          "religion": 1,
+          "scholar": 1,
+          "soldier": 11
+        },
+        {
+          "Geo-Political Entities": 37,
+          "broadcast program": 1,
+          "film": 1,
+          "language": 10,
+          "written art": 5
+        },
+        {
+          "Geo-Political Entities": 15,
+          "actor": 1,
+          "athlete": 1,
+          "broadcast program": 1,
+          "company": 1,
+          "currency": 1,
+          "language": 7,
+          "political party": 2,
+          "politician": 1,
+          "protest": 1,
+          "religion": 23,
+          "show organization": 1,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 4,
+          "company": 1,
+          "education": 28
+        },
+        {
+          "Geo-Political Entities": 2,
+          "artist, author": 1,
+          "award": 1,
+          "broadcast program": 1,
+          "car": 4,
+          "company": 79,
+          "currency": 4,
+          "food": 3,
+          "government, governmentagency": 3,
+          "hotel": 2,
+          "language": 1,
+          "media, newspaper": 21,
+          "restaurant": 5,
+          "show organization": 1,
+          "software": 1,
+          "sports team": 1,
+          "written art": 4
+        },
+        {
+          "Geo-Political Entities": 3,
+          "athlete": 2,
+          "sports event": 1,
+          "sports league": 3,
+          "sports team": 29
+        },
+        {
+          "Geo-Political Entities": 26,
+          "airplane": 1,
+          "artist, author": 2,
+          "astronomy": 21,
+          "attack, battle ,war ,military conflict": 1,
+          "award": 1,
+          "biology": 7,
+          "bodies of water": 5,
+          "chemical": 5,
+          "company": 3,
+          "currency": 3,
+          "disaster": 1,
+          "disease": 2,
+          "education": 1,
+          "food": 10,
+          "god": 20,
+          "hotel": 1,
+          "island": 3,
+          "language": 13,
+          "living thing": 34,
+          "mountain": 4,
+          "music": 2,
+          "park": 1,
+          "religion": 6,
+          "scholar": 1,
+          "ship": 2,
+          "show organization": 2,
+          "written art": 13
+        },
+        {
+          "Geo-Political Entities": 16,
+          "airplane": 2,
+          "artist, author": 2,
+          "astronomy": 2,
+          "athlete": 1,
+          "biology": 3,
+          "car": 2,
+          "chemical": 1,
+          "company": 2,
+          "currency": 3,
+          "disease": 7,
+          "food": 4,
+          "game": 1,
+          "god": 3,
+          "island": 2,
+          "language": 5,
+          "living thing": 10,
+          "medical": 1,
+          "music": 1,
+          "religion": 1,
+          "scholar": 1,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 3,
+          "airport": 16,
+          "park": 1,
+          "road, railway, highway, transit": 1
+        },
+        {
+          "Geo-Political Entities": 6,
+          "artist, author": 2,
+          "award": 1,
+          "broadcast program": 2,
+          "company": 3,
+          "education": 1,
+          "media, newspaper": 3,
+          "medical": 1,
+          "music": 1,
+          "protest": 1,
+          "show organization": 1,
+          "software": 3,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 3,
+          "actor": 1,
+          "artist, author": 14,
+          "athlete": 1,
+          "attack, battle ,war ,military conflict": 1,
+          "award": 19,
+          "company": 2,
+          "director": 1,
+          "language": 1,
+          "law": 1,
+          "living thing": 1,
+          "media, newspaper": 1,
+          "music": 1,
+          "park": 1,
+          "politician": 1,
+          "restaurant": 1,
+          "scholar": 2,
+          "ship": 1,
+          "show organization": 1,
+          "soldier": 1,
+          "sports event": 1,
+          "weapon": 1,
+          "written art": 10
+        },
+        {
+          "Geo-Political Entities": 4,
+          "artist, author": 2,
+          "athlete": 89,
+          "award": 2,
+          "soldier": 1,
+          "sports team": 5
+        },
+        {
+          "Geo-Political Entities": 4
+        },
+        {
+          "Geo-Political Entities": 2,
+          "airplane": 29,
+          "airport": 1,
+          "attack, battle ,war ,military conflict": 1,
+          "award": 1,
+          "bodies of water": 1,
+          "car": 4,
+          "company": 8,
+          "government, governmentagency": 2,
+          "island": 1,
+          "road, railway, highway, transit": 5,
+          "ship": 6,
+          "show organization": 1,
+          "soldier": 2,
+          "train": 11,
+          "weapon": 12
+        },
+        {
+          "Geo-Political Entities": 6,
+          "government, governmentagency": 1
+        },
+        {
+          "Geo-Political Entities": 2
+        },
+        {
+          "Geo-Political Entities": 1,
+          "actor": 27,
+          "artist, author": 5,
+          "award": 1,
+          "broadcast program": 3,
+          "director": 2,
+          "film": 11,
+          "media, newspaper": 2,
+          "politician": 2,
+          "scholar": 1,
+          "show organization": 1,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 2,
+          "athlete": 1
+        },
+        {
+          "Geo-Political Entities": 12,
+          "education": 2,
+          "park": 1,
+          "show organization": 1,
+          "sports event": 4,
+          "sports facility": 17,
+          "sports team": 21
+        },
+        {
+          "Geo-Political Entities": 3,
+          "election": 1,
+          "government, governmentagency": 1,
+          "sports team": 2
+        },
+        {
+          "Geo-Political Entities": 1,
+          "company": 37,
+          "government, governmentagency": 1
+        },
+        {
+          "Geo-Political Entities": 4,
+          "artist, author": 7,
+          "award": 2,
+          "broadcast program": 1,
+          "company": 3,
+          "film": 2,
+          "game": 4,
+          "media, newspaper": 3,
+          "music": 32,
+          "park": 1,
+          "show organization": 22,
+          "software": 1,
+          "weapon": 1,
+          "written art": 2
+        },
+        {
+          "Geo-Political Entities": 3,
+          "actor": 5,
+          "artist, author": 29,
+          "athlete": 4,
+          "company": 3,
+          "director": 1,
+          "film": 1,
+          "political party": 1,
+          "politician": 63,
+          "scholar": 18,
+          "soldier": 8,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 1
+        },
+        {
+          "Geo-Political Entities": 2
+        },
+        {
+          "Geo-Political Entities": 1,
+          "company": 5,
+          "road, railway, highway, transit": 1
+        },
+        {
+          "Geo-Political Entities": 1
+        },
+        {
+          "Geo-Political Entities": 2,
+          "award": 7,
+          "currency": 1,
+          "game": 1,
+          "media, newspaper": 3,
+          "sports event": 67,
+          "sports league": 27,
+          "sports team": 26,
+          "written art": 1
+        },
+        {
+          "Geo-Political Entities": 1,
+          "athlete": 2,
+          "sports facility": 1,
+          "sports league": 11,
+          "sports team": 32
+        },
+        {
+          "actor": 48,
+          "artist, author": 58,
+          "athlete": 3,
+          "broadcast program": 3,
+          "company": 2,
+          "director": 5,
+          "film": 1,
+          "language": 1,
+          "music": 1,
+          "politician": 1,
+          "scholar": 2,
+          "show organization": 3
+        },
+        {
+          "artist, author": 28,
+          "company": 2,
+          "director": 7,
+          "show organization": 1,
+          "written art": 1
+        },
+        {
+          "music": 1
+        },
+        {
+          "biology": 76,
+          "chemical": 38,
+          "disease": 23,
+          "food": 1,
+          "living thing": 4,
+          "medical": 23
+        },
+        {
+          "artist, author": 1,
+          "politician": 2,
+          "scholar": 3,
+          "soldier": 9
+        },
+        {
+          "athlete": 41,
+          "award": 1,
+          "sports event": 4
+        },
+        {
+          "show organization": 1
+        },
+        {
+          "broadcast program": 1,
+          "media, newspaper": 17
+        },
+        {
+          "car": 3,
+          "currency": 1,
+          "train": 1,
+          "weapon": 14
+        },
+        {
+          "education": 6
+        },
+        {
+          "education": 1
+        },
+        {
+          "software": 1
+        },
+        {
+          "astronomy": 2
+        },
+        {
+          "bodies of water": 1,
+          "mountain": 1
+        }
+      ]
+    ],
+    "evaluation_time": 0.69,
+    "v_measure": 0.5400915900853681,
+    "v_measure_std": 0.0
+  }
+}

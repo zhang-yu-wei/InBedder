@@ -1,0 +1,17 @@
+{
+    "model_type": "causal",
+    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/alpaca_opt-350m",
+    "model_id": "opt-350m-e5-large-v2-alpaca-ml=20",
+    "reencoder": "intfloat/e5-large-v2",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "generation_configs": {
+        "num_beams": 1,
+        "max_new_tokens": 20,
+        "do_sample": false
+    },
+    "batch_size": 256,
+    "disable_instruction": false,
+    "pattern": "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:"
+}

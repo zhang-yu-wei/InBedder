@@ -1,0 +1,20 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "InstructSTSBenchmark",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cos_sim": {
+      "pearson": 0.10068574160195297,
+      "spearman": 0.10454017169504239
+    },
+    "euclidean": {
+      "pearson": 0.10415780471368945,
+      "spearman": 0.1045005510497515
+    },
+    "evaluation_time": 0.09,
+    "manhattan": {
+      "pearson": 0.1041555963081647,
+      "spearman": 0.10475466959037052
+    }
+  }
+}

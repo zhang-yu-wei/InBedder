@@ -1,0 +1,36 @@
+{
+    "hf_name": "google/flan-t5-large",
+    "model_type": "seq2seq",
+    "model_id": "flan-t5-large-e5-large-v2-pretrain-filter-ml=40",
+    "reencoder": "intfloat/e5-large-v2",
+    "max_input_length": 512,
+    "dtype": "float32",
+    "seed": 42,
+    "generation_configs": {
+        "num_beams": 1,
+        "max_new_tokens": 40,
+        "do_sample": false
+    },
+    "batch_size": 256,
+    "disable_instruction": false,
+    "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:",
+    "filter_words": {
+        "FeedbacksClustering": ["Here is a human feedback on machine-generated text. Categorize the type of reason why the human like or dislike it.", "Based on ", "Sure! "],
+        "STSBenchmark": ["Extract key words from the sentence.", "Based on ", "Sure! "],
+        "IntentEmotion": ["How does the customer feel?", "What does the customer need?", "Based on ", "Sure! "],
+        "TwentyNewsgroupsClustering": ["Categorize the topic of the news article.", "Based on ", "Sure! "],
+        "RedditClustering": ["What category does the post title belong to?", "Based on ", "Sure! "],
+        "FewEventClustering": ["Here is a sentence. Please tell me the type of the specified event according to the trigger words appended after the sentence.", "Based on ", "Sure! "],
+        "FewNerdClustering": ["Here is a sentence. Please tell me the type of the specified entity appended after the sentence.", "Based on ", "Sure! "],
+        "FewRelClustering": ["Here is a sentence. Please tell me the relation type between two specified entities appended after the sentence.", "Based on ", "Sure! "],
+        "RateMyProfClustering": ["Here is a student review on the course and the professor. Categorize the aspect the student is discussing about.", "Based on ", "Sure! "],
+        "ArxivClusteringS2S": ["What category does the paper belong to?", "Based on ", "Sure! "],
+        "AskUbuntuDupQuestions": ["What does the user want?", "Based on ", "Sure! "],
+        "SciDocsRR": ["What is the paper about based on the title?", "Based on ", "Sure! "],
+        "StackOverflowDupQuestions": ["What does the user want?", "Based on ", "Sure! "],
+        "STS12": ["Extract key words from the sentence.", "Based on ", "Sure! "],
+        "InstructSTSBenchmark": ["Based on ", "Sure! "],
+        "NYTLocationClustering": ["Where did the news happen?", "Based on ", "Sure! "],
+        "NYTTopicClustering": ["What is the topic of news?", "Based on ", "Sure! "]
+    }
+}

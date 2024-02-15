@@ -1,0 +1,38 @@
+{
+  "dataset_revision": null,
+  "mteb_dataset_name": "RateMyProfClustering",
+  "mteb_version": "1.1.2.dev0",
+  "test": {
+    "cluster_components": [
+      [
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 295,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 336,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 311,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 319
+        },
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 77,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 89,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 100,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 56
+        },
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 120,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 82,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 97,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 150
+        },
+        {
+          "1) the professor's grading policies, test difficulty, or assessment-related issues": 82,
+          "2) the amount of work, readings, or assignments required for the course as well as students' time investment": 67,
+          "4) provides an opinion on the ease or difficulty of the course or its content": 66,
+          "5) highlights the professor's demeanor, attitude, or personal qualities": 49
+        }
+      ]
+    ],
+    "evaluation_time": 0.07,
+    "v_measure": 0.00819141024477683,
+    "v_measure_std": 0.0
+  }
+}
