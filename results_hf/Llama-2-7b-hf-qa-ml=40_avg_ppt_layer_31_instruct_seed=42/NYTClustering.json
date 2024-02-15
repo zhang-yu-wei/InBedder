@@ -1,7 +1,0 @@
-{
-    "test": {
-        "NYTTopicClustering": 0.40042119277136656,
-        "NYTLocationClustering": 0.35598350810308926,
-        "harmonic_mean": 0.376897035546874
-    }
-}
