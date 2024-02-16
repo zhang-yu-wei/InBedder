@@ -25,10 +25,10 @@ python -m pip install flash-attn --no-build-isolation
 ### Load Model
 
 ```python
-from lm_encoders_hf importCausalLMEncoder
+from lm_encoders_hf import CausalLMEncoder
 
 model = CausalLMEncoder(
-    model_name_or_path="BrandonZYW/roberta-large-InBedder",
+    model_name_or_path="BrandonZYW/llama-2-7b-InBedder",
     generation_configs={
         "temperature": 0.6,
         "top_p": 0.9,
@@ -45,10 +45,10 @@ model = CausalLMEncoder(
 We released a series of InBedder checkpoints with different sizes. You can easily load these models with huggingface. 
 |              Model              | Avg. Score |
 |:-------------------------------|:--------:|
-| [llama-2-7b-InBedder](BrandonZYW/llama-2-7b-InBedder) | **58.80** |
-| [opt-2.7b-InBedder](BrandonZYW/opt-2.7b-InBedder)   | 56.57 |
-| [opt-1.3b-InBedder](BrandonZYW/opt-1.3b-InBedder)   | 54.99 |
-| [roberta-large-InBedder](BrandonZYW/roberta-large-InBedder)   | 53.06 |
+| [llama-2-7b-InBedder](https://huggingface.co/BrandonZYW/llama-2-7b-InBedder) | **58.80** |
+| [opt-2.7b-InBedder](https://huggingface.co/BrandonZYW/opt-2.7b-InBedder)   | 56.57 |
+| [opt-1.3b-InBedder](https://huggingface.co/BrandonZYW/opt-1.3b-InBedder)   | 54.99 |
+| [roberta-large-InBedder](https://huggingface.co/BrandonZYW/roberta-large-InBedder)   | 53.06 |
 
 ## Use Case
 We show how to use InBedder for personalized clustering.
