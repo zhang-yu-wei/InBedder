@@ -1,6 +1,10 @@
+<img src="images/InBedder.jpeg" width="300" height="300">
+
+<small>Credit DALL·E 3</small>
+
 # InBedder: Instruction-following Text Embedder
 
-This repository contains the code and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question]().
+This repository contains the code, dataset and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question]().
 
 We introduce **InBedder**🛌, a text embedder that is designed to follow instructions. Instruction-following text embedder can capture characteristics of texts specified by user instructions. InBedder offers a novel viewpoint that treats the instruction as a _question_ about the input text and encodes the _expected answers_ to obtain the representation accordingly. We show that InBedder is aware of instructions with different evaluation tasks.
 
@@ -38,7 +42,23 @@ model = CausalLMEncoder(
 )
 ```
 
+### Add instructions
+
+```python
+pattern = "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:"
+corpus = [pattern.replace('{input}', s).replace('{instruction}', instruction) for s in corpus]
+```
+
 ### The `encode` function
+
+```python
+embeddins, generations = model.encode(
+    corpus,
+    batch_size=32,
+    cache_dir=None, # useful when you want reuse the embeddings
+    return_generations=True # useful if you want to look at your generations
+)
+```
 
 ## Model List
 
