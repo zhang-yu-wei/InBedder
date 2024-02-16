@@ -6,12 +6,12 @@ We introduce **InBedder**🛌, a text embedder that is designed to follow instru
 
 **************************** **Updates** ****************************
 
-* 02/14/2024: We released [our paper](), [code](), [project page]() and [checkpoint](). Check them out!
+* 02/15/2024: We released [our paper](), [code](), [project page]() and [checkpoint](). Check them out!
 
 ## Quick Links
 
 ## Installation
-Follow the following steps to install InBedder.
+Follow the following steps to set up InBedder.
 ```bash
 conda create -n inbedder python=3.9
 conda activate inbedder
@@ -24,6 +24,20 @@ python -m pip install flash-attn --no-build-isolation
 
 ### Load Model
 
+```python
+from lm_encoders_hf importCausalLMEncoder
+
+model = CausalLMEncoder(
+    model_name_or_path="BrandonZYW/roberta-large-InBedder",
+    generation_configs={
+        "temperature": 0.6,
+        "top_p": 0.9,
+        "max_new_tokens": 3,
+        "do_sample": true
+    }
+)
+```
+
 ### The `encode` function
 
 ## Model List
@@ -31,10 +45,10 @@ python -m pip install flash-attn --no-build-isolation
 We released a series of InBedder checkpoints with different sizes. You can easily load these models with huggingface. 
 |              Model              | Avg. Score |
 |:-------------------------------|:--------:|
-| [Llama-2-7b-InBedder]() |  |
-| [OPT-2.7b-InBedder]()   |  |
-| [OPT-1.3b-InBedder]()   |  |
-| [OPT-350m-InBedder]()   |  |
+| [llama-2-7b-InBedder](BrandonZYW/llama-2-7b-InBedder) | **58.80** |
+| [opt-2.7b-InBedder](BrandonZYW/opt-2.7b-InBedder)   | 56.57 |
+| [opt-1.3b-InBedder](BrandonZYW/opt-1.3b-InBedder)   | 54.99 |
+| [roberta-large-InBedder](BrandonZYW/roberta-large-InBedder)   | 53.06 |
 
 ## Use Case
 We show how to use InBedder for personalized clustering.
