@@ -31,10 +31,11 @@ python -m pip install flash-attn --no-build-isolation
 We released a series of InBedder checkpoints with different sizes. You can easily load these models with huggingface. 
 |              Model              | Avg. Score |
 |:-------------------------------|:--------:|
-| [Llama-2-7b-InBedder]() |  |
-| [OPT-2.7b-InBedder]()   |  |
-| [OPT-1.3b-InBedder]()   |  |
-| [OPT-350m-InBedder]()   |  |
+| [InBedder-Llama-2-7b]() |  |
+| [InBedder-OPT-2.7b]()   |  |
+| [InBedder-OPT-1.3b](https://huggingface.co/KomeijiForce/inbedder-opt-1.3b)   |  |
+| [InBedder-OPT-350m]()   |  |
+| [InBedder-roberta-large](KomeijiForce/inbedder-roberta-large)   |  |
 
 ## Use Case
 We show how to use InBedder for personalized clustering.
