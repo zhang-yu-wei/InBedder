@@ -90,5 +90,22 @@ If you have any question related to the code or the paper, feel free to email Yu
 If you find our work helpful, please cite us:
 
 ```bibtex
-
+@article{DBLP:journals/corr/abs-2402.09642,
+  author       = {Letian Peng and
+                  Yuwei Zhang and
+                  Zilong Wang and
+                  Jayanth Srinivasa and
+                  Gaowen Liu and
+                  Zihan Wang and
+                  Jingbo Shang},
+  title        = {Generating Efficient Training Data via LLM-based Attribute Manipulation},
+  journal      = {CoRR},
+  volume       = {abs/2402.09642},
+  year         = {2023},
+  url          = {https://arxiv.org/abs/2402.09642},
+  eprinttype    = {arXiv},
+  eprint       = {2402.09642},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2402.09642.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
