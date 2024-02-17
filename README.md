@@ -98,7 +98,7 @@ If you find our work helpful, please cite us:
                   Gaowen Liu and
                   Zihan Wang and
                   Jingbo Shang},
-  title        = {Generating Efficient Training Data via LLM-based Attribute Manipulation},
+  title        = {Answer is All You Need: Instruction-following Text Embedding via Answering the Question},
   journal      = {CoRR},
   volume       = {abs/2402.09642},
   year         = {2023},
