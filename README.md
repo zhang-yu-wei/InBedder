@@ -10,7 +10,7 @@ We introduce **InBedder**🛌, a text embedder that is designed to follow instru
 
 **************************** **Updates** ****************************
 
-* 02/15/2024: We released [our paper](), [code](), [project page]() and [checkpoint](). Check them out!
+* 02/15/2024: We released [our paper](), [code](), [pre-training dataset](https://huggingface.co/datasets/KomeijiForce/Inbedder-Pretrain-Data), [project page]() and [checkpoint](https://huggingface.co/BrandonZYW). Check them out!
 
 ## Quick Links
 
