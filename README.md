@@ -73,6 +73,8 @@ We released a series of InBedder checkpoints with different sizes. You can easil
 ## Use Case
 We show how to use InBedder for personalized clustering.
 
+
+
 ## Training
 ### Data
 

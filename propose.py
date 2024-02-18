@@ -87,7 +87,7 @@ def main(config_file, use_cache):
     output_value = configs['output_value']
     model.set_output_value(output_value)
 
-    output_path = f"propose_results/{model_id}{'-whiten' if configs.get('use_whitening', False) else ''}_{output_value}_{instruct_id}{'_seed='+str(configs['seed'])}.json"
+    output_path = f"propose_results/{model_id}_{output_value}_{instruct_id}{'_seed='+str(configs['seed'])}.json"
     logger.info(f"Save path: {output_path}")
     cache_dir = output_path.replace(".json", "")
     
@@ -100,7 +100,6 @@ def main(config_file, use_cache):
 
     logger.info("Fitting clustering algorithm ...")
     clustering_model = KMeans(n_clusters=configs["n_clusters"], n_init=10, random_state=42)
-    # clustering_model = DBSCAN(eps=1.0)
     clustering_model.fit(corpus_embeddings)
     cluster_assignment = clustering_model.labels_
 
