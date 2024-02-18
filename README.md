@@ -2,7 +2,7 @@
 
 <small>Credit DALL·E 3</small>
 
-# InBedder: Instruction-following Text Embedder
+# 🛌InBedder: Instruction-following Text Embedder
 
 This repository contains the code, dataset and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question]().
 
@@ -10,11 +10,11 @@ We introduce **InBedder**🛌, a text embedder that is designed to follow instru
 
 **************************** **Updates** ****************************
 
-* 02/15/2024: We released [our paper](), [code](), [project page]() and [checkpoint](). Check them out!
+* 02/15/2024: We released [our paper](https://arxiv.org/abs/2402.09642), [code](https://github.com/zhang-yu-wei/InBedder/), [pre-training dataset](https://huggingface.co/datasets/KomeijiForce/Inbedder-Pretrain-Data), [project page]() and [checkpoint](https://huggingface.co/BrandonZYW). Check them out!
 
-## Quick Links
+## ⚡ Quick Links
 
-## Installation
+## 📦 Installation
 Follow the following steps to set up InBedder.
 ```bash
 conda create -n inbedder python=3.9
@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 python -m pip install flash-attn --no-build-isolation
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Load Model
 
@@ -60,7 +60,7 @@ embeddins, generations = model.encode(
 )
 ```
 
-## Model List
+## 📊 Model List
 
 We released a series of InBedder checkpoints with different sizes. You can easily load these models with huggingface. 
 |              Model              | Avg. Score |
@@ -70,27 +70,42 @@ We released a series of InBedder checkpoints with different sizes. You can easil
 | [opt-1.3b-InBedder](https://huggingface.co/BrandonZYW/opt-1.3b-InBedder)   | 54.99 |
 | [roberta-large-InBedder](https://huggingface.co/BrandonZYW/roberta-large-InBedder)   | 53.06 |
 
-## Use Case
+## 💡 Use Case
 We show how to use InBedder for personalized clustering.
 
-
-
-## Training
+## 🏋️‍♂️ Training
 ### Data
 
 ### Train InBedder
 
-## Evaluation
+## ✅ Evaluation
 ### Data
 
 ### Evaluation Code
 
-## Bugs or questions?
+## 🐞 Bugs or questions?
 If you have any question related to the code or the paper, feel free to email Yuwei (`yuz163@ucsd.edu`) and Letian (`lepeng@ucsd.edu`).
 
-## Citation
+## 📑 Citation
 If you find our work helpful, please cite us:
 
 ```bibtex
-
+@article{DBLP:journals/corr/abs-2402.09642,
+  author       = {Letian Peng and
+                  Yuwei Zhang and
+                  Zilong Wang and
+                  Jayanth Srinivasa and
+                  Gaowen Liu and
+                  Zihan Wang and
+                  Jingbo Shang},
+  title        = {Answer is All You Need: Instruction-following Text Embedding via Answering the Question},
+  journal      = {CoRR},
+  volume       = {abs/2402.09642},
+  year         = {2023},
+  url          = {https://arxiv.org/abs/2402.09642},
+  eprinttype    = {arXiv},
+  eprint       = {2402.09642},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2402.09642.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
