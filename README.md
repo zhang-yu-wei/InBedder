@@ -52,10 +52,10 @@ corpus = [pattern.replace('{input}', s).replace('{instruction}', instruction) fo
 ### The `encode` function
 
 ```python
-embeddins, generations = model.encode(
+embeddings, generations = model.encode(
     corpus,
     batch_size=32,
-    cache_dir=None, # useful when you want reuse the embeddings
+    cache_dir=None, # useful when you want to reuse the embeddings
     return_generations=True # useful if you want to look at your generations
 )
 ```
@@ -88,7 +88,7 @@ We show how to use InBedder for personalized clustering.
 ### Evaluation Code
 
 ## 🐞 Bugs or questions?
-If you have any question related to the code or the paper, feel free to email Yuwei (`yuz163@ucsd.edu`) and Letian (`lepeng@ucsd.edu`).
+If you have any questions related to the code or the paper, feel free to email Yuwei (`yuz163@ucsd.edu`) and Letian (`lepeng@ucsd.edu`).
 
 ## 📑 Citation
 If you find our work helpful, please cite us:
