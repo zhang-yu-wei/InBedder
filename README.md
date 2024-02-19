@@ -81,6 +81,10 @@ We show how to use InBedder for personalized clustering.
 ## ✅ Evaluation
 ### Data
 
+- [IntentEmotion](https://huggingface.co/datasets/BrandonZYW/IntentEmotion)
+- [InstructSTSB](https://huggingface.co/datasets/BrandonZYW/InstructSTSB)
+- [NYTClustering](https://huggingface.co/datasets/BrandonZYW/NYTClustering)
+
 ### Evaluation Code
 
 ## 🐞 Bugs or questions?
