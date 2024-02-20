@@ -13,7 +13,11 @@ class NYTTopicClustering(AbsTaskClustering):
             "category": "s2s",
             "main_score": "v_measure",
             "instruction": "What is the topic of news?",
-            "data_path": "InstructEmbedBench/results/nyt_topic.json",
+            # "data_path": "InstructEmbedBench/results/nyt_topic.json",
+            "hf_hub_name": "BrandonZYW/NYTClustering",
+            "config_name": "topic",
+            "eval_splits": ["test"],
+            "revision": "462fb544c8993a0421fd969a7a0f19f1fbd975bf",
             "correct_instructions": [
                 "I'm curious, what is the article about?",
                 "Could you tell me what subject the article is focused on?",

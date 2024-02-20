@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export CUDA_VISIBLE_DEVICES=2
+export CUDA_VISIBLE_DEVICES=3
 export OMP_NUM_THREADS=4
 export MKL_NUM_THREADS=4
 
@@ -39,7 +39,7 @@ export MKL_NUM_THREADS=4
 # python evaluation.py --config_file configs/causallm_opt-1.3b-qa.json --last_layer_only True --overwrite_results False
 # python evaluation.py --config_file configs/causallm_opt-2.7b-qa.json --last_layer_only False --overwrite_results False
 # python evaluation.py --config_file configs/causallm_opt-6.7b-qa.json --last_layer_only True --overwrite_results False
-# python evaluation.py --config_file configs/maskedlm_roberta-large-qa.json --last_layer_only True --overwrite_results False
+python evaluation.py --config_file configs/maskedlm_roberta-large-qa.json --last_layer_only True --overwrite_results False
 # python evaluation.py --config_file configs/maskedlm_roberta-large-e5-large-v2-qa.json --overwrite_results True
 # python evaluation.py --config_file configs/maskedlm_roberta-large-qa-ml=10.json --overwrite_results True
 # python evaluation.py --config_file configs/seq2seqlm_t5-v1_1-large-qa.json --last_layer_only True --overwrite_results True
@@ -53,7 +53,7 @@ export MKL_NUM_THREADS=4
 # python evaluation.py --config_file configs/peftcausallm_llama-2-7b-qa-2e-4.json --last_layer_only True --overwrite_results False
 # python evaluation.py --config_file configs/bowcelm_opt-350m-qa.json --overwrite_results True
 # python evaluation.py --config_file configs/causallm_llama-2-7b-qa-ml=3.json --last_layer_only True --overwrite_results True
-python evaluation.py --config_file configs/causallm_llama-2-7b-e5-large-v2-qa-ml=3-multiple.json --last_layer_only True --overwrite_results True
+# python evaluation.py --config_file configs/causallm_llama-2-7b-e5-large-v2-qa-ml=3-multiple.json --last_layer_only True --overwrite_results True
 
 # ===== qa noprocess =====
 # python evaluation.py --config_file configs/causallm_llama-2-7b-qa-noprocess.json --last_layer_only True --overwrite_results False

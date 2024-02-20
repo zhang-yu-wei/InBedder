@@ -34,7 +34,8 @@ class AbsTask(ABC):
                 self.dataset = json.load(f)
         else:
             self.dataset = datasets.load_dataset(
-                self.description["hf_hub_name"], revision=self.description.get("revision", None)
+                self.description["hf_hub_name"], revision=self.description.get("revision", None),
+                name=self.description.get("config_name", None)
             )
         self.data_loaded = True
     

@@ -12,10 +12,10 @@ nltk.download('stopwords')
 
 from mteb import MTEB
 # select a few tasks to save time
-from mteb.tasks import IntentEmotion, FeedbacksClustering, TwentyNewsgroupsClustering, STSBenchmarkSTS, ArxivClusteringS2S, STS12STS, AskUbuntuDupQuestions, SciDocsReranking, StackOverflowDupQuestions, RedditClustering, FewRelClustering, RateMyProfClustering, FewNerdClustering, FewEventClustering, InstructSTSBenchmark, NYTLocationClustering, NYTTopicClustering
+from mteb.tasks import IntentEmotion, FeedbacksClustering, TwentyNewsgroupsClustering, AskUbuntuDupQuestions, SciDocsReranking, StackOverflowDupQuestions, FewRelClustering, RateMyProfClustering, FewNerdClustering, FewEventClustering, InstructSTSBenchmark, NYTLocationClustering, NYTTopicClustering
 from sentence_transformers import SentenceTransformer
 from InstructorEmbedding import INSTRUCTOR
-from lm_encoders_hf import CausalLMEncoder, Seq2SeqLMEncoder, MaskededLMEncoder, BoWLMEncoder, PeftCausalLMEncoder, CausalLMEncoderMultiple
+from lm_encoders_hf import CausalLMEncoder, Seq2SeqLMEncoder, MaskededLMEncoder, CausalLMEncoderMultiple
 from transformers import set_seed
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -44,14 +44,10 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
             model_handle = CausalLMEncoder
         elif model_type == "causal_multiple":
             model_handle = CausalLMEncoderMultiple
-        elif model_type == "peftcausal":
-            model_handle = PeftCausalLMEncoder
         elif model_type == "seq2seq":
             model_handle = Seq2SeqLMEncoder
         elif model_type == "masked":
             model_handle = MaskededLMEncoder
-        elif model_type == "bow":
-            model_handle = BoWLMEncoder
         else:
             raise NotImplementedError()
         
@@ -75,7 +71,7 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
                             use_whitening=configs.get('use_whitening', False),
                             ppl_filtering=configs.get('ppl_filtering', None),
                             last_layer_only=last_layer_only,
-                            reencode_times=configs.get("reencode_times", 1)
+                            reencode_times=configs.get("reencode_times", 1),
                             **configs["generation_configs"])
         
         if output_value is not None:
@@ -93,9 +89,9 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
             cache_dir = f"cache_hf/{model_id}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
 
             evaluation = MTEB(tasks=[
-                InstructSTSBenchmark(),
-                IntentEmotion(),
-                NYTLocationClustering(),
+                # InstructSTSBenchmark(),
+                # IntentEmotion(),
+                # NYTLocationClustering(),
                 NYTTopicClustering(),
                 # FeedbacksClustering(),
                 # FewRelClustering(),

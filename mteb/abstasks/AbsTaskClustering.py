@@ -19,6 +19,13 @@ class AbsTaskClustering(AbsTask):
                 sentences.extend(self.dataset[k])
                 labels.extend([k] * len(self.dataset[k]))
             self.dataset = {'test': [{"sentences": sentences, "labels": labels}]}
+        if "text" in self.dataset['test'][0] and "cluster" in self.dataset['test'][0]:
+            sentences = []
+            labels= []
+            for d in self.dataset['test']:
+                sentences.append(d['text'])
+                labels.append(d['cluster'])
+            self.dataset = {'test': [{"sentences": sentences, "labels": labels}]}
 
     def evaluate(self, model, split="test", **kwargs):
         if not self.data_loaded:
