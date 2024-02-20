@@ -10,7 +10,18 @@ from .AbsTask import AbsTask
 class AbsTaskTriplet(AbsTask):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        
+    
+    def load_data(self, **kwargs):
+        super().load_data(**kwargs)
+        goal_driven_triplets = []
+        for subset, goal, instruction in zip(self.dataset, self.description['config_name'], self.description['instruction']):
+            goal_driven_triplets.append({
+                'Goal': goal,
+                'Description': instruction,
+                'Triplets': [(t['anchor'], t['positive'], t['negative']) for t in subset['test']]
+            })
+        self.dataset = goal_driven_triplets
+    
     def evaluate(self, model, split, **kwargs):
         if not self.data_loaded:
             self.load_data(kwargs["data_path"])

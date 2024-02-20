@@ -58,17 +58,6 @@ python evaluation.py --config_file configs/maskedlm_roberta-large-qa.json --last
 # ===== qa noprocess =====
 # python evaluation.py --config_file configs/causallm_llama-2-7b-qa-noprocess.json --last_layer_only True --overwrite_results False
 
-# ===== qa+compression lms =====
-# python evaluation.py --config_file configs/causallm_opt-350m-qa+compression.json --overwrite_results True
-# python evaluation.py --config_file configs/causallm_opt-1.3b-qa+compression.json --overwrite_results False
-# python evaluation.py --config_file configs/maskedlm_roberta-large-qa+compression.json --overwrite_results True
-# python evaluation.py --config_file configs/seq2seqlm_flan-t5-large-qa+compression.json --overwrite_results True
-
-# ===== alpaca+qa lms =====
-# python evaluation.py --config_file configs/causallm_opt-350m-alpaca+qa.json --overwrite_results True
-# python evaluation.py --config_file configs/maskedlm_roberta-large-alpaca+qa.json --overwrite_results True
-# python evaluation.py --config_file configs/seq2seqlm_flan-t5-large-alpaca+qa.json --overwrite_results True
-
 # ===== embedder =====
 # python evaluation.py --config_file configs/sentence-transformers_e5-large-v2.json --overwrite_results False
 # python evaluation.py --config_file configs/sentence-transformers_instructor-large.json --overwrite_results True

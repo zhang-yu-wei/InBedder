@@ -89,19 +89,19 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
             cache_dir = f"cache_hf/{model_id}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
 
             evaluation = MTEB(tasks=[
-                # InstructSTSBenchmark(),
-                # IntentEmotion(),
-                # NYTLocationClustering(),
+                InstructSTSBenchmark(),
+                IntentEmotion(),
+                NYTLocationClustering(),
                 NYTTopicClustering(),
-                # FeedbacksClustering(),
-                # FewRelClustering(),
-                # RateMyProfClustering(),
-                # FewNerdClustering(),
-                # FewEventClustering(),
-                # TwentyNewsgroupsClustering(),
-                # AskUbuntuDupQuestions(),
-                # SciDocsReranking(),
-                # StackOverflowDupQuestions(),
+                FeedbacksClustering(),
+                FewRelClustering(),
+                RateMyProfClustering(),
+                FewNerdClustering(),
+                FewEventClustering(),
+                TwentyNewsgroupsClustering(),
+                AskUbuntuDupQuestions(),
+                SciDocsReranking(),
+                StackOverflowDupQuestions(),
             ])
             if not cache_outputs:
                 cache_dir = None

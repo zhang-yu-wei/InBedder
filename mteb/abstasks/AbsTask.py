@@ -33,10 +33,19 @@ class AbsTask(ABC):
             with open(self.description["data_path"], 'r') as f:
                 self.dataset = json.load(f)
         else:
-            self.dataset = datasets.load_dataset(
-                self.description["hf_hub_name"], revision=self.description.get("revision", None),
-                name=self.description.get("config_name", None)
-            )
+            config_name = self.description.get("config_name", None)
+            if config_name is not None and isinstance(config_name, list):
+                self.dataset = []
+                for cn in config_name:
+                    self.dataset.append(datasets.load_dataset(
+                        self.description["hf_hub_name"], revision=self.description.get("revision", None),
+                        name=cn
+                    ))
+            else:
+                self.dataset = datasets.load_dataset(
+                    self.description["hf_hub_name"], revision=self.description.get("revision", None),
+                    name=config_name
+                )
         self.data_loaded = True
     
     def _add_instruction(self, pattern, sentences, lang=None, instructions=None):
