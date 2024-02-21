@@ -13,7 +13,10 @@ class FewNerdClustering(AbsTaskClustering):
             "category": "s2s",
             "main_score": "v_measure",
             "instruction": "Here is a sentence. Please tell me the type of the specified entity appended after the sentence.",
-            "data_path": "InstructEmbedBench/datasets/few_nerd_nat/converted_data.json",
+            # "data_path": "InstructEmbedBench/datasets/few_nerd_nat/converted_data.json",
+            "hf_hub_name": "BrandonZYW/FewNerdClustering",
+            "eval_splits": ["test"],
+            "revision": "9dff096e4ca4dd38688236fa1d4e4c17cb547e66",
             "correct_instructions": [
                 "After reading the provided sentence, identify and describe the type of the entity that is mentioned at the end.",
                 "Examine this sentence and then specify what category the highlighted entity at its conclusion belongs to.",

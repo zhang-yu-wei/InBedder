@@ -16,7 +16,7 @@ from mteb import MTEB
 from mteb.tasks import NYTTopicClustering, FeedbacksClustering, RateMyProfClustering, FewEventClustering, FewNerdClustering, FewRelClustering
 from sentence_transformers import SentenceTransformer
 from InstructorEmbedding import INSTRUCTOR
-from lm_encoders_hf import CausalLMEncoder, Seq2SeqLMEncoder, MaskededLMEncoder, BoWLMEncoder, PeftCausalLMEncoder
+from lm_encoders_hf import CausalLMEncoder, Seq2SeqLMEncoder, MaskededLMEncoder
 from transformers import set_seed
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -43,14 +43,10 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
     if model_type not in ["sentence-transformers", "instructor"]:
         if model_type == "causal":
             model_handle = CausalLMEncoder
-        elif model_type == "peftcausal":
-            model_handle = PeftCausalLMEncoder
         elif model_type == "seq2seq":
             model_handle = Seq2SeqLMEncoder
         elif model_type == "masked":
             model_handle = MaskededLMEncoder
-        elif model_type == "bow":
-            model_handle = BoWLMEncoder
         else:
             raise NotImplementedError()
         
@@ -70,8 +66,6 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
                             dtype=configs["dtype"],
                             reencoder=reencoder,
                             use_flash_attention_2=configs.get('use_flash_attention_2', False),
-                            use_whitening=configs.get('use_whitening', False),
-                            ppl_filtering=configs.get('ppl_filtering', None),
                             last_layer_only=last_layer_only,
                             **configs["generation_configs"])
         
@@ -86,7 +80,7 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
         for ov in all_output_values:
             model.set_output_value(ov)
 
-            output_folder = f"robust_results/{model_id}{'-whiten' if configs.get('use_whitening', False) else ''}_{ov}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
+            output_folder = f"robust_results/{model_id}_{ov}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
             cache_dir = f"robust_cache/{model_id}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
 
             evaluation = MTEB(tasks=[

@@ -13,7 +13,10 @@ class FewEventClustering(AbsTaskClustering):
             "category": "s2s",
             "main_score": "v_measure",
             "instruction": "Here is a sentence. Please tell me the type of the specified event according to the trigger words appended after the sentence.",
-            "data_path": "InstructEmbedBench/datasets/few_event/converted_data.json",
+            # "data_path": "InstructEmbedBench/datasets/few_event/converted_data.json",
+            "hf_hub_name": "BrandonZYW/FewEventClustering",
+            "eval_splits": ["test"],
+            "revision": "aecc9c3ad7ae8d05b8621390d1919f1816eab777",
             "correct_instructions": [
                 "After reading the provided sentence, identify the type of event based on the trigger words that follow.",
                 "Examine this sentence and determine the event type using the appended trigger words.",

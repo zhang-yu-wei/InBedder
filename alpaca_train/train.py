@@ -215,7 +215,10 @@ class SupervisedDataset(Dataset):
         model_name = tokenizer.name_or_path
         logging.warning("Loading data...")
         # list_data_dict = utils.jload(data_path)[:100]
-        list_data_dict = utils.jload(data_path)
+        if os.path.exists(data_path):
+            list_data_dict = utils.jload(data_path)
+        else:
+            list_data_dict = utils.read_from_hub(data_path)
         logging.warning("Truncating inputs...")
         list_data_dict = truncate_inputs(list_data_dict, tokenizer)
 
@@ -224,10 +227,6 @@ class SupervisedDataset(Dataset):
             PROMPT_DICT = QA_PROMPT_DICT
         else:
             PROMPT_DICT = ALPACA_PROMPT_DICT
-        # if 'alpaca' in data_path:
-        #     PROMPT_DICT = QA_PROMPT_DICT
-        # else:
-        #     PROMPT_DICT = ALPACA_PROMPT_DICT
         prompt_input, prompt_no_input = PROMPT_DICT["prompt_input"], PROMPT_DICT["prompt_no_input"]
         sources = [
             prompt_input.format_map(example) if example.get("input", "") != "" else prompt_no_input.format_map(example)
@@ -353,6 +352,7 @@ def train():
     trainer = Trainer(model=model, tokenizer=tokenizer, args=training_args, **data_module)
     trainer.train()
     trainer.save_state()
+    os.makedirs("checkpoints", exist_ok=True)
     trainer.save_model(output_dir=training_args.output_dir)
 
 

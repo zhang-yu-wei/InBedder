@@ -1,6 +1,6 @@
 {
     "model_type": "causal",
-    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/qa_opt-1.3b",
+    "model_path": "BrandonZYW/opt-1.3b-InBedder",
     "model_id": "opt-1.3b-qa-ml=20",
     "reencoder": "average_word_embeddings_komninos",
     "max_input_length": 512,

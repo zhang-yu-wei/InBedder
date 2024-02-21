@@ -1,5 +1,5 @@
 {
-    "model_path": "/data/yuwei/proj_embed/code/LLMEmbedAPI/alpaca_train/checkpoints/qa_roberta-large",
+    "model_path": "BrandonZYW/roberta-large-InBedder",
     "model_id": "roberta-large-qa-ml=3",
     "model_type": "masked",
     "reencoder": "average_word_embeddings_komninos",

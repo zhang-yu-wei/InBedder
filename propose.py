@@ -23,27 +23,9 @@ def main(config_file, use_cache):
 
     set_seed(configs['seed'])
     data_path = configs.get("data_path", None)
-    hf_dataset = configs.get("hf_dataset", None)
 
-    if data_path is not None:
-        # data_path must be a json file
-        with open(data_path, 'r') as f:
-            dataset = json.load(f)
-        if isinstance(dataset, list):
-            if isinstance(dataset[0], str):
-                corpus = dataset
-            elif isinstance(dataset[0], dict):
-                keys = dataset[0].keys()
-                assert all([d.keys() == keys for d in dataset])
-                corpus = [' '.join([d[k] for k in keys]) for d in dataset]
-        elif isinstance(dataset, dict):
-            corpus = sum(dataset.values(), [])
-    elif hf_dataset is not None:
-        # optimize this when necessary
-        dataset = datasets.load_dataset(hf_dataset)
-        corpus = list(dataset['sentences'])
-    else:
-        raise ValueError()
+    dataset = datasets.load_dataset(data_path)['test']
+    corpus = list(dataset['text'])
 
     instruct_id = configs["instruct_id"]
     instruction = configs['instruction']
@@ -56,6 +38,7 @@ def main(config_file, use_cache):
     # the name for cache
     model_id = configs.get("model_id", "")
     model_id = model_id if model_id != "" else hf_name.split("/")[-1]
+    print(model_id)
 
     model_type = configs.get("model_type", "")
     if model_type == "causal":
@@ -79,14 +62,13 @@ def main(config_file, use_cache):
                         dtype=configs["dtype"],
                         reencoder=reencoder,
                         use_flash_attention_2=configs.get('use_flash_attention_2', False),
-                        use_whitening=configs.get('use_whitening', False),
-                        ppl_filtering=configs.get('ppl_filtering', None),
                         last_layer_only=True,
                         **configs["generation_configs"])
 
     output_value = configs['output_value']
     model.set_output_value(output_value)
 
+    os.makedirs("propose_results", exist_ok=True)
     output_path = f"propose_results/{model_id}_{output_value}_{instruct_id}{'_seed='+str(configs['seed'])}.json"
     logger.info(f"Save path: {output_path}")
     cache_dir = output_path.replace(".json", "")

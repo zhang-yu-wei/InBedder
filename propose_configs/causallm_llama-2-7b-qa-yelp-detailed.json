@@ -1,6 +1,6 @@
 {
     "model_type": "causal",
-    "model_path": "alpaca_train/checkpoints/qa_Llama-2-7b-hf",
+    "model_path": "BrandonZYW/llama-2-7b-InBedder",
     "model_id": "Llama-2-7b-hf-qa-ml=20",
     "max_input_length": 512,
     "dtype": "bfloat16",
@@ -15,9 +15,9 @@
     "batch_size": 50,
     "disable_instruction": false,
     "pattern": "### Input:\n{input}\n\n### Instruction:\n{instruction}\n\n### Response:",
-    "data_path": "InstructEmbedBench/results/yelp.json",
+    "data_path": "BrandonZYW/YelpSubsample",
     "instruction": "Here is a review from customer. Is the review detailed with many evidences and supports?",
     "instruct_id": "yelp-detailed",
-    "output_value": "last_ppt_layer_32",
+    "output_value": "fst_gen_layer_32",
     "n_clusters": 3
 }

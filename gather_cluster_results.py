@@ -34,7 +34,7 @@ with open("InstructEmbedBench/datasets/few_event/converted_data.json", 'r') as f
         for d in dataset[k]:
             dataset_tuple.append((d, k))
 
-file_name = "Llama-2-7b-hf-qa-ml=20_last_ppt_layer_32_event-type_seed=42"
+file_name = "Llama-2-7b-hf-qa-ml=20_fst_gen_layer_32_event-type_seed=42"
 with open(f"propose_results/{file_name}.json", 'r') as f:
     clustering = json.load(f)
 

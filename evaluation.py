@@ -1,6 +1,5 @@
 """
-This program is supposed to take any models that have customized ``encode'' function.
-Migrate from ``encoder_debug_hf.py``.
+Evaluation code
 """
 import os
 import json
@@ -68,8 +67,6 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
                             dtype=configs["dtype"],
                             reencoder=reencoder,
                             use_flash_attention_2=configs.get('use_flash_attention_2', False),
-                            use_whitening=configs.get('use_whitening', False),
-                            ppl_filtering=configs.get('ppl_filtering', None),
                             last_layer_only=last_layer_only,
                             reencode_times=configs.get("reencode_times", 1),
                             **configs["generation_configs"])
@@ -82,10 +79,12 @@ def main(config_file, output_value: str = None, overwrite_results: bool = False,
             else:
                 all_output_values = [output_value] if output_value is not None else model.get_all_output_values()
         # iterate for all possible output values
+        os.makedirs("results_hf", exist_ok=True)
+        os.makedirs("cache_hf", exist_ok=True)
         for ov in all_output_values:
             model.set_output_value(ov)
 
-            output_folder = f"results_hf/{model_id}{'-whiten' if configs.get('use_whitening', False) else ''}_{ov}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
+            output_folder = f"results_hf/{model_id}_{ov}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
             cache_dir = f"cache_hf/{model_id}{'_instruct' if not configs['disable_instruction'] else ''}{'_seed='+str(configs['seed'])}"
 
             evaluation = MTEB(tasks=[

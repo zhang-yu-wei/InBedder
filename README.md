@@ -1,16 +1,16 @@
-<img src="images/InBedder.jpeg" width="300" height="300">
+<img src="images/InBedder.jpeg" width="400" height="400">
 
-<small>Credit DALL·E 3</small>
+<span style="font-size:10px;">Credit DALL·E 3</span>
 
 # 🛌InBedder: Instruction-following Text Embedder
 
 This repository contains the code, dataset and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question]().
 
-We introduce **InBedder**🛌, a text embedder that is designed to follow instructions. Instruction-following text embedder can capture characteristics of texts specified by user instructions. InBedder offers a novel viewpoint that treats the instruction as a _question_ about the input text and encodes the _expected answers_ to obtain the representation accordingly. We show that InBedder is aware of instructions with different evaluation tasks.
+We introduce 🛌**InBedder**, a text embedder that is designed to follow instructions. Instruction-following text embedder can capture characteristics of texts specified by user instructions. InBedder offers a novel viewpoint that treats the instruction as a _question_ about the input text and encodes the _expected answers_ to obtain the representation accordingly. We show that InBedder is aware of instructions with different evaluation tasks.
 
 **************************** **Updates** ****************************
 
-* 02/15/2024: We released [our paper](https://arxiv.org/abs/2402.09642), [code](https://github.com/zhang-yu-wei/InBedder/), [pre-training dataset](https://huggingface.co/datasets/KomeijiForce/Inbedder-Pretrain-Data), [project page]() and [checkpoint](https://huggingface.co/BrandonZYW). Check them out!
+* 02/15/2024: We released [our paper](https://arxiv.org/abs/2402.09642), [code](https://github.com/zhang-yu-wei/InBedder/), [pre-training dataset](https://huggingface.co/datasets/KomeijiForce/Inbedder-Pretrain-Data), [evaluation dataset](https://huggingface.co/BrandonZYW), [project page]() and [checkpoint](https://huggingface.co/BrandonZYW). Check them out!
 
 ## ⚡ Quick Links
 
@@ -71,21 +71,48 @@ We released a series of InBedder checkpoints with different sizes. You can easil
 | [roberta-large-InBedder](https://huggingface.co/BrandonZYW/roberta-large-InBedder)   | 53.06 |
 
 ## 💡 Use Case
-We show how to use InBedder for personalized clustering.
+We show how to use InBedder for personalized clustering in `propose.py`. Execute it by running
+```bash
+bash scripts/propose.sh
+```
+Additionally, `analyze_propose_results.py` and `gather_cluster_results.py` will help you get the top-words from each cluster and compare with label components.
 
 ## 🏋️‍♂️ Training
 ### Data
 
+Please checkout our training dataset [here](https://huggingface.co/datasets/KomeijiForce/Inbedder-Pretrain-Data).
+
 ### Train InBedder
+
+We follow [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca/tree/main) for training.
+```bash
+cd alpaca_train
+bash scripts/train.sh # this is for roberta-large, opt-1.3b
+bash scripts/train_2.7b.sh # this is for opt-2.7b
+bash scripts/train_7b.sh # this is for llama
+```
 
 ## ✅ Evaluation
 ### Data
 
+To facilitate future research, we are happy to release evaluation data we used/created.
+
 - [IntentEmotion](https://huggingface.co/datasets/BrandonZYW/IntentEmotion)
 - [InstructSTSB](https://huggingface.co/datasets/BrandonZYW/InstructSTSB)
 - [NYTClustering](https://huggingface.co/datasets/BrandonZYW/NYTClustering)
+- [RateMyProfClustering](https://huggingface.co/datasets/BrandonZYW/RateMyProfClustering)
+- [FeedbacksClustering](https://huggingface.co/datasets/BrandonZYW/FeedbacksClustering)
+- [FewRelClustering](https://huggingface.co/datasets/BrandonZYW/FewRelClustering)
+- [FewNerdClustering](https://huggingface.co/datasets/BrandonZYW/FewNerdClustering)
+- [FewEventClustering](https://huggingface.co/datasets/BrandonZYW/FewEventClustering)
 
 ### Evaluation Code
+
+The evaluation code is contained in `evaluation.py`. To execute evaluation and reproduce results in the paper, use `scripts/evaluation.sh`. Simply select one line to uncomment and fill in the cuda device id, and then run
+```bash
+bash scripts/evaluation.sh
+```
+Notice that you can check all available configs in `configs` folder. Additionally, if you want to evaluate with the instruction robustness tests, there is a section named "robustness" that can execute them.
 
 ## 🐞 Bugs or questions?
 If you have any questions related to the code or the paper, feel free to email Yuwei (`yuz163@ucsd.edu`) and Letian (`lepeng@ucsd.edu`).
@@ -113,3 +140,8 @@ If you find our work helpful, please cite us:
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+## 📚 References
+- [instructor-embedding](https://github.com/xlang-ai/instructor-embedding)
+- [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca/tree/main)
+- [mteb](https://github.com/embeddings-benchmark/mteb)

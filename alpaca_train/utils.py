@@ -2,6 +2,7 @@
 import os
 import io
 import json
+from datasets import load_dataset
 
 
 def _make_w_io_base(f, mode: str):
@@ -45,3 +46,6 @@ def jload(f, mode="r"):
     jdict = json.load(f)
     f.close()
     return jdict
+
+def read_from_hub(identifier):
+    return list(load_dataset(identifier)['train'])

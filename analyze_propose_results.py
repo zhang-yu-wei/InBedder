@@ -7,7 +7,7 @@ from safetensors import safe_open
 from sklearn.feature_extraction.text import TfidfVectorizer
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-file_to_analyze = "Llama-2-7b-hf-qa-ml=20_last_ppt_layer_32_event-type_seed=42"
+file_to_analyze = "Llama-2-7b-hf-qa-ml=20_fst_gen_layer_32_event-type_seed=42"
 
 with open(f"propose_results/{file_to_analyze}.json", 'r') as f:
     data = json.load(f)

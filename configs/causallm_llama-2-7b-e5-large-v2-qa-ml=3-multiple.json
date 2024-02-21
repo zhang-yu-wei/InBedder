@@ -1,6 +1,6 @@
 {
     "model_type": "causal_multiple",
-    "model_path": "alpaca_train/checkpoints/qa_Llama-2-7b-hf",
+    "model_path": "BrandonZYW/llama-2-7b-InBedder",
     "model_id": "Llama-2-7b-hf-e5-large-v2-qa-ml=3-multiple",
     "reencoder": "intfloat/e5-large-v2",
     "max_input_length": 512,

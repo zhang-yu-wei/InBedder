@@ -13,7 +13,10 @@ class RateMyProfClustering(AbsTaskClustering):
             "category": "s2s",
             "main_score": "v_measure",
             "instruction": "Here is a student review on the course and the professor. Categorize the aspect the student is discussing about.",
-            "data_path": "InstructEmbedBench/results/goalex_rate_my_prof_0-gpt-4-ratemyprof_v1_converted.json",
+            # "data_path": "InstructEmbedBench/results/goalex_rate_my_prof_0-gpt-4-ratemyprof_v1_converted.json",
+            "hf_hub_name": "BrandonZYW/RateMyProfClustering",
+            "eval_splits": ["test"],
+            "revision": "253b8501d191f7c3d3aff3bc27c6d7f7112589ba",
             "correct_instructions": [
                 "Examine this student's review of the course and the professor, and identify the specific aspects being discussed.",
                 "Please analyze the student's feedback regarding the course and professor, and determine the key topics covered.",

@@ -13,7 +13,10 @@ class FewRelClustering(AbsTaskClustering):
             "category": "s2s",
             "main_score": "v_measure",
             "instruction": "Here is a sentence. Please tell me the relation type between two specified entities appended after the sentence.",
-            "data_path": "InstructEmbedBench/datasets/few_rel_nat/converted_data.json",
+            # "data_path": "InstructEmbedBench/datasets/few_rel_nat/converted_data.json",
+            "hf_hub_name": "BrandonZYW/FewRelClustering",
+            "eval_splits": ["test"],
+            "revision": "d951bf6cb10522c042bf8db3a837028b7e69388f",
             "correct_instructions": [
                 "This statement is provided for your analysis. Identify and describe the type of relationship that exists between the two entities mentioned at the end of the sentence.",
                 "Examine the following sentence and determine the nature of the connection between the two entities specified in the appendage.",

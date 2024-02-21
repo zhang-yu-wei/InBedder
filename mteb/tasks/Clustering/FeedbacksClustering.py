@@ -13,7 +13,10 @@ class FeedbacksClustering(AbsTaskClustering):
             "category": "s2s",
             "main_score": "v_measure",
             "instruction": "Here is a human feedback on machine-generated text. Categorize the type of reason why the human like or dislike it.",
-            "data_path": "InstructEmbedBench/results/goalex_feedbacks_0-gpt-4-feedbacks_v3_converted.json",
+            # "data_path": "InstructEmbedBench/results/goalex_feedbacks_0-gpt-4-feedbacks_v3_converted.json",
+            "hf_hub_name": "BrandonZYW/FeedbacksClustering",
+            "eval_splits": ["test"],
+            "revision": "365ef3e171ad4dab887b08495b10940a1aecb04b",
             "correct_instructions": [
                 "Please classify the human's feedback on this AI-generated text, identifying their reasons for either liking or disliking it.",
                 "Examine the human response to the machine-produced text and determine the basis of their approval or disapproval.",

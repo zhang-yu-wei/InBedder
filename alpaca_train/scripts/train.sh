@@ -10,8 +10,7 @@
 # 783M
 # model_name_or_path="google/flan-t5-large"
 
-# for model_name_or_path in "roberta-large" "facebook/opt-350m" "google/flan-t5-large" "facebook/opt-1.3b"
-for model_name_or_path in "google/t5-v1_1-large"
+for model_name_or_path in "roberta-large" "facebook/opt-1.3b"
 do
     
     if [[ $model_name_or_path == *"/"* ]]; then
@@ -62,7 +61,7 @@ do
     # ===== qa =====
     python train.py \
         --model_name_or_path ${model_name_or_path} \
-        --data_path "data/qa_collection_processed.json" \
+        --data_path "KomeijiForce/Inbedder-Pretrain-Data" \
         --output_dir "checkpoints/qa_${model_name}" \
         --num_train_epochs 1 \
         --per_device_train_batch_size $train_batch_size \
@@ -79,46 +78,4 @@ do
         --tf32 True \
         --overwrite_output_dir True \
         --run_name "${model_name}-qa"
-
-    # ===== alpaca+qa =====
-    # python train.py \
-    #     --model_name_or_path ${model_name_or_path} \
-    #     --data_path "data/alpaca+qa_data_processed.json" \
-    #     --output_dir "checkpoints/alpaca+qa_${model_name}" \
-    #     --num_train_epochs 1 \
-    #     --per_device_train_batch_size $train_batch_size \
-    #     --gradient_accumulation_steps $gradient_accumulation_steps \
-    #     --evaluation_strategy "no" \
-    #     --save_strategy "steps" \
-    #     --save_steps 2000 \
-    #     --save_total_limit 1 \
-    #     --learning_rate $learning_rate \
-    #     --weight_decay 0. \
-    #     --warmup_ratio 0.03 \
-    #     --lr_scheduler_type "cosine" \
-    #     --logging_steps 1 \
-    #     --tf32 True \
-    #     --overwrite_output_dir True \
-    #     --run_name "${model_name}-alpaca+qa"
-
-    # ===== qa+compression =====
-    # python train.py \
-    #     --model_name_or_path ${model_name_or_path} \
-    #     --data_path "data/qa+compression_data.json" \
-    #     --output_dir "checkpoints/qa+compression_${model_name}" \
-    #     --num_train_epochs 1 \
-    #     --per_device_train_batch_size $train_batch_size \
-    #     --gradient_accumulation_steps $gradient_accumulation_steps \
-    #     --evaluation_strategy "no" \
-    #     --save_strategy "steps" \
-    #     --save_steps 2000 \
-    #     --save_total_limit 1 \
-    #     --learning_rate $learning_rate \
-    #     --weight_decay 0. \
-    #     --warmup_ratio 0.03 \
-    #     --lr_scheduler_type "cosine" \
-    #     --logging_steps 1 \
-    #     --tf32 True \
-    #     --overwrite_output_dir True \
-    #     --run_name "${model_name}-qa+compression"
 done
