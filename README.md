@@ -12,7 +12,8 @@ We introduce 🛌**InBedder**, a text embedder that is designed to follow instru
 
 * 02/15/2024: We released [our paper](https://arxiv.org/abs/2402.09642), [code](https://github.com/zhang-yu-wei/InBedder/), [pre-training dataset](https://huggingface.co/datasets/KomeijiForce/Inbedder-Pretrain-Data), [evaluation dataset](https://huggingface.co/BrandonZYW), [project page]() and [checkpoint](https://huggingface.co/BrandonZYW). Check them out!
 
-## ⚡ Quick Links
+## ⚡ Quick Start
+You can check the code in [UseCase.ipynb](https://github.com/zhang-yu-wei/InBedder/UseCase.ipynb) for a quick trial for our model!
 
 ## 📦 Installation
 Follow the following steps to set up InBedder.
