@@ -33,18 +33,14 @@ from lm_encoders_hf import CausalLMEncoder, MaskedLMEncoder
 
 model = CausalLMEncoder(
     model_name_or_path="BrandonZYW/llama-2-7b-InBedder",
-    generation_configs={
-        "temperature": 0.6,
-        "top_p": 0.9,
-        "max_new_tokens": 3,
-        "do_sample": true
-    }
+    temperature=0.6,
+    top_p=0.9,
+    max_new_tokens=3,
+    do_sample=True
 )
 model = MaskedLMEncoder(
     model_name_or_path="BrandonZYW/roberta-large-InBedder",
-    generation_configs={
-        "mask_length": 3
-    }
+    mask_length=3
 )
 ```
 
