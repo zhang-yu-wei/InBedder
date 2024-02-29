@@ -4,7 +4,7 @@
 
 # 🛌InBedder: Instruction-following Text Embedder
 
-This repository contains the code, dataset and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question]().
+This repository contains the code, dataset and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question](https://arxiv.org/abs/2402.09642).
 
 We introduce 🛌**InBedder**, a text embedder that is designed to follow instructions. Instruction-following text embedder can capture characteristics of texts specified by user instructions. InBedder offers a novel viewpoint that treats the instruction as a _question_ about the input text and encodes the _expected answers_ to obtain the representation accordingly. We show that InBedder is aware of instructions with different evaluation tasks.
 
@@ -29,7 +29,7 @@ python -m pip install flash-attn --no-build-isolation
 ### Load Model
 
 ```python
-from lm_encoders_hf import CausalLMEncoder
+from lm_encoders_hf import CausalLMEncoder, MaskedLMEncoder
 
 model = CausalLMEncoder(
     model_name_or_path="BrandonZYW/llama-2-7b-InBedder",
@@ -38,6 +38,12 @@ model = CausalLMEncoder(
         "top_p": 0.9,
         "max_new_tokens": 3,
         "do_sample": true
+    }
+)
+model = MaskedLMEncoder(
+    model_name_or_path="BrandonZYW/roberta-large-InBedder",
+    generation_configs={
+        "mask_length": 3
     }
 )
 ```
