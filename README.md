@@ -45,6 +45,13 @@ model = MaskedLMEncoder(
 )
 ```
 
+Remember to set your output value to last layer, for example
+```python
+model.set_output_value("fst_gen_layer_32")
+```
+
+Checkout `demos` for more example usage.
+
 ### Add instructions
 
 ```python
