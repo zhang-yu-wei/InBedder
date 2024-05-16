@@ -1,3 +1,5 @@
+**[News] InBedder is accepted to the Main Conference of ACL2024!🎇**
+
 <img src="images/InBedder.jpeg" width="400" height="400">
 
 <span style="font-size:10px;">Credit DALL·E 3</span>
