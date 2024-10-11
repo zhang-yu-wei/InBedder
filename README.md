@@ -1,14 +1,12 @@
-**[News] InBedder is accepted to the Main Conference of ACL2024!🎇**
-
-<img src="images/InBedder.jpeg" width="400" height="400">
-
-<span style="font-size:10px;">Credit DALL·E 3</span>
-
-# 🛌InBedder: Instruction-following Text Embedder
+# [ACL2024] 🛌InBedder: Instruction-following Text Embedder
 
 This repository contains the code, dataset and pre-trained models for our paper [Answer is All You Need: Instruction-following Text Embedding via Answering the Question](https://arxiv.org/abs/2402.09642).
 
 We introduce 🛌**InBedder**, a text embedder that is designed to follow instructions. Instruction-following text embedder can capture characteristics of texts specified by user instructions. InBedder offers a novel viewpoint that treats the instruction as a _question_ about the input text and encodes the _expected answers_ to obtain the representation accordingly. We show that InBedder is aware of instructions with different evaluation tasks.
+
+<img src="images/InBedder.jpeg" width="400" height="400">
+
+<span style="font-size:10px;">Credit DALL·E 3</span>
 
 **************************** **Updates** ****************************
 
